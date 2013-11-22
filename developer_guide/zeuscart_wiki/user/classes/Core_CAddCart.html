@@ -1,0 +1,557 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>phpDocumentor » \Core_CAddCart</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">phpDocumentor</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Core.html"><i class="icon-folder-open"></i> Core</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/Display.html"><i class="icon-folder-open"></i> Display</a></li>
+<li><a href="../packages/Lib.html"><i class="icon-folder-open"></i> Lib</a></li>
+<li><a href="../packages/Model.html"><i class="icon-folder-open"></i> Model</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods
+                    <ul>
+<li class="method public "><a href="#method_FindProductPrice" title="FindProductPrice :: This function is used to get product price"><span class="description">This function is used to get product price</span><pre>FindProductPrice()</pre></a></li>
+<li class="method public "><a href="#method_addCart" title="addCart :: This function is used to add the cart item  from home page"><span class="description">This function is used to add the cart item  from home page</span><pre>addCart()</pre></a></li>
+<li class="method public "><a href="#method_addCartFromProductDetail" title="addCartFromProductDetail :: This function is used to add the cart item  from product detail page"><span class="description">This function is used to add the cart item  from product detail page</span><pre>addCartFromProductDetail()</pre></a></li>
+<li class="method public "><a href="#method_cartSnapShot" title="cartSnapShot :: This function is used to get cart snap sort"><span class="description">This function is used to get cart snap sort</span><pre>cartSnapShot()</pre></a></li>
+<li class="method public "><a href="#method_countCart" title="countCart :: This function is used to get  the cart  count amount."><span class="description">This function is used to get  the cart  count amount.</span><pre>countCart()</pre></a></li>
+<li class="method public "><a href="#method_deleteCart" title="deleteCart :: This function is used to delete cart item"><span class="description">This function is used to delete cart item</span><pre>deleteCart()</pre></a></li>
+<li class="method public "><a href="#method_displayPaymentGateways" title="displayPaymentGateways :: This function is used to get payment gate way from db"><span class="description">This function is used to get payment gate way from db</span><pre>displayPaymentGateways()</pre></a></li>
+<li class="method public "><a href="#method_doPaymentForAuthorizenet" title="doPaymentForAuthorizenet :: This function is used for payment for authorizenet for guest user"><span class="description">This function is used for payment for authorizenet for guest user</span><pre>doPaymentForAuthorizenet()</pre></a></li>
+<li class="method public "><a href="#method_doQuickRegistration" title="doQuickRegistration :: This function is used for quick registration for guest user"><span class="description">This function is used for quick registration for guest user</span><pre>doQuickRegistration()</pre></a></li>
+<li class="method public "><a href="#method_getCartData" title="getCartData :: This function is used to get  the cart data"><span class="description">This function is used to get  the cart data</span><pre>getCartData()</pre></a></li>
+<li class="method public "><a href="#method_getCartIdOfUser" title="getCartIdOfUser :: This function is used to get  the cart  id"><span class="description">This function is used to get  the cart  id</span><pre>getCartIdOfUser()</pre></a></li>
+<li class="method public "><a href="#method_getCategoryIdByProductId" title="getCategoryIdByProductId :: This function is used to get product   category id from db."><span class="description">This function is used to get product   category id from db.</span><pre>getCategoryIdByProductId()</pre></a></li>
+<li class="method public "><a href="#method_getMsrpByQuantity" title="getMsrpByQuantity :: This function is used to get product msrp from db"><span class="description">This function is used to get product msrp from db</span><pre>getMsrpByQuantity()</pre></a></li>
+<li class="method public "><a href="#method_getPaymentGatewaySettings" title="getPaymentGatewaySettings :: This function is used to get payment gateway  ."><span class="description">This function is used to get payment gateway  .</span><pre>getPaymentGatewaySettings()</pre></a></li>
+<li class="method public "><a href="#method_getProductQtyForProduct" title="getProductQtyForProduct :: This function is used to get product   quantity from db."><span class="description">This function is used to get product   quantity from db.</span><pre>getProductQtyForProduct()</pre></a></li>
+<li class="method public "><a href="#method_getProductTitle" title="getProductTitle :: This function is used to get product title from db"><span class="description">This function is used to get product title from db</span><pre>getProductTitle()</pre></a></li>
+<li class="method public "><a href="#method_getTaxSettings" title="getTaxSettings :: This function is used to get tax settings  ."><span class="description">This function is used to get tax settings  .</span><pre>getTaxSettings()</pre></a></li>
+<li class="method public "><a href="#method_insertBillingAddress" title="insertBillingAddress :: This function is used to insert the billing address."><span class="description">This function is used to insert the billing address.</span><pre>insertBillingAddress()</pre></a></li>
+<li class="method public "><a href="#method_insertShipping" title="insertShipping :: This function is used to insert shipping address  in session"><span class="description">This function is used to insert shipping address  in session</span><pre>insertShipping()</pre></a></li>
+<li class="method public "><a href="#method_insertShippingAddress" title="insertShippingAddress :: This function is used to insert the shipping address."><span class="description">This function is used to insert the shipping address.</span><pre>insertShippingAddress()</pre></a></li>
+<li class="method public "><a href="#method_mergeSessionWithCartDatabase" title="mergeSessionWithCartDatabase :: This function is used for merging the cart data with session"><span class="description">This function is used for merging the cart data with session</span><pre>mergeSessionWithCartDatabase()</pre></a></li>
+<li class="method public "><a href="#method_redeemCoupon" title="redeemCoupon :: This function is used to get product   redeem  coupon from db."><span class="description">This function is used to get product   redeem  coupon from db.</span><pre>redeemCoupon()</pre></a></li>
+<li class="method public "><a href="#method_showBillingDetails" title="showBillingDetails :: This function is used to get the billin address."><span class="description">This function is used to get the billin address.</span><pre>showBillingDetails()</pre></a></li>
+<li class="method public "><a href="#method_showCart" title="showCart :: This function is used to show  the cart  item"><span class="description">This function is used to show  the cart  item</span><pre>showCart()</pre></a></li>
+<li class="method public "><a href="#method_showOrderConfirmation" title="showOrderConfirmation :: This function is used to show the order confirmation"><span class="description">This function is used to show the order confirmation</span><pre>showOrderConfirmation()</pre></a></li>
+<li class="method public "><a href="#method_showPaymentPageFor2Checkout" title="showPaymentPageFor2Checkout :: This function is used for payment page for checkout"><span class="description">This function is used for payment page for checkout</span><pre>showPaymentPageFor2Checkout()</pre></a></li>
+<li class="method public "><a href="#method_showPaymentPageForAuthorizenet" title="showPaymentPageForAuthorizenet :: This function is used for payment page for authorizenet"><span class="description">This function is used for payment page for authorizenet</span><pre>showPaymentPageForAuthorizenet()</pre></a></li>
+<li class="method public "><a href="#method_showPaymentPageForBluepay" title="showPaymentPageForBluepay :: This function is used for payment for bluepay for  user"><span class="description">This function is used for payment for bluepay for  user</span><pre>showPaymentPageForBluepay()</pre></a></li>
+<li class="method public "><a href="#method_showPaymentPageForWorldPay" title="showPaymentPageForWorldPay :: This function is used for payment page for world pay"><span class="description">This function is used for payment page for world pay</span><pre>showPaymentPageForWorldPay()</pre></a></li>
+<li class="method public "><a href="#method_showQuickRegistration" title="showQuickRegistration :: This function is used for quick registration in user guest"><span class="description">This function is used for quick registration in user guest</span><pre>showQuickRegistration()</pre></a></li>
+<li class="method public "><a href="#method_showShippingDetails" title="showShippingDetails :: This function is used to get the shipping address."><span class="description">This function is used to get the shipping address.</span><pre>showShippingDetails()</pre></a></li>
+<li class="method public "><a href="#method_showShippingMethod" title="showShippingMethod :: This function is used to get the shipping method"><span class="description">This function is used to get the shipping method</span><pre>showShippingMethod()</pre></a></li>
+<li class="method public "><a href="#method_updateCart" title="updateCart :: This function is used to update  the cart  item"><span class="description">This function is used to update  the cart  item</span><pre>updateCart()</pre></a></li>
+<li class="method public "><a href="#method_validateCoupon" title="validateCoupon :: This function is used to validate the coupon"><span class="description">This function is used to validate the coupon</span><pre>validateCoupon()</pre></a></li>
+</ul>
+</li>
+<li class="nav-header">
+<i class="icon-custom icon-property"></i> Properties
+                    <ul>
+<li class="property public "><a href="#property_arr" title="$arr :: Stores the output"><span class="description"></span><pre>$arr</pre></a></li>
+<li class="property public "><a href="#property_output" title="$output :: Stores the output"><span class="description"></span><pre>$output</pre></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="span8">
+<a id="\Core_CAddCart"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/global.html">global</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/Core_CAddCart.html">Core_CAddCart</a>
+</li>
+</ul>
+<div class="element class">
+<p class="short_description">Add to cart related  class</p>
+<div class="details">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>package</th>
+<td><a href="../packages/Core.CAddCart.html">Core_CAddCart</a></td>
+</tr>
+<tr>
+<th>category</th>
+<td>Core</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">AJ Square Inc Dev Team</a></td>
+</tr>
+<tr>
+<th>link</th>
+<td><a href="http://www.zeuscart.com">http://www.zeuscart.com</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright (c) 2008 - 2013, AJ Square, Inc.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>Version 4.0</td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a id="method_FindProductPrice"></a><div class="element clickable method public method_FindProductPrice" data-toggle="collapse" data-target=".method_FindProductPrice .collapse">
+<h2>This function is used to get product price</h2>
+<pre>FindProductPrice(integer $qty) : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$qty</h4>
+<code>integer</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_addCart"></a><div class="element clickable method public method_addCart" data-toggle="collapse" data-target=".method_addCart .collapse">
+<h2>This function is used to add the cart item  from home page</h2>
+<pre>addCart() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_addCartFromProductDetail"></a><div class="element clickable method public method_addCartFromProductDetail" data-toggle="collapse" data-target=".method_addCartFromProductDetail .collapse">
+<h2>This function is used to add the cart item  from product detail page</h2>
+<pre>addCartFromProductDetail() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_cartSnapShot"></a><div class="element clickable method public method_cartSnapShot" data-toggle="collapse" data-target=".method_cartSnapShot .collapse">
+<h2>This function is used to get cart snap sort</h2>
+<pre>cartSnapShot() : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_countCart"></a><div class="element clickable method public method_countCart" data-toggle="collapse" data-target=".method_countCart .collapse">
+<h2>This function is used to get  the cart  count amount.</h2>
+<pre>countCart() : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_deleteCart"></a><div class="element clickable method public method_deleteCart" data-toggle="collapse" data-target=".method_deleteCart .collapse">
+<h2>This function is used to delete cart item</h2>
+<pre>deleteCart() : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_displayPaymentGateways"></a><div class="element clickable method public method_displayPaymentGateways" data-toggle="collapse" data-target=".method_displayPaymentGateways .collapse">
+<h2>This function is used to get payment gate way from db</h2>
+<pre>displayPaymentGateways() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_doPaymentForAuthorizenet"></a><div class="element clickable method public method_doPaymentForAuthorizenet" data-toggle="collapse" data-target=".method_doPaymentForAuthorizenet .collapse">
+<h2>This function is used for payment for authorizenet for guest user</h2>
+<pre>doPaymentForAuthorizenet() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_doQuickRegistration"></a><div class="element clickable method public method_doQuickRegistration" data-toggle="collapse" data-target=".method_doQuickRegistration .collapse">
+<h2>This function is used for quick registration for guest user</h2>
+<pre>doQuickRegistration() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_getCartData"></a><div class="element clickable method public method_getCartData" data-toggle="collapse" data-target=".method_getCartData .collapse">
+<h2>This function is used to get  the cart data</h2>
+<pre>getCartData() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_getCartIdOfUser"></a><div class="element clickable method public method_getCartIdOfUser" data-toggle="collapse" data-target=".method_getCartIdOfUser .collapse">
+<h2>This function is used to get  the cart  id</h2>
+<pre>getCartIdOfUser() : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_getCategoryIdByProductId"></a><div class="element clickable method public method_getCategoryIdByProductId" data-toggle="collapse" data-target=".method_getCategoryIdByProductId .collapse">
+<h2>This function is used to get product   category id from db.</h2>
+<pre>getCategoryIdByProductId(integer $productid) : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$productid</h4>
+<code>integer</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>int</code></div>
+</div></div>
+</div>
+<a id="method_getMsrpByQuantity"></a><div class="element clickable method public method_getMsrpByQuantity" data-toggle="collapse" data-target=".method_getMsrpByQuantity .collapse">
+<h2>This function is used to get product msrp from db</h2>
+<pre>getMsrpByQuantity(integer $product_id, integer $quantity) : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$product_id</h4>
+<code>integer</code>
+</div>
+<div class="subelement argument">
+<h4>$quantity</h4>
+<code>integer</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_getPaymentGatewaySettings"></a><div class="element clickable method public method_getPaymentGatewaySettings" data-toggle="collapse" data-target=".method_getPaymentGatewaySettings .collapse">
+<h2>This function is used to get payment gateway  .</h2>
+<pre>getPaymentGatewaySettings(integer $id) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$id</h4>
+<code>integer</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_getProductQtyForProduct"></a><div class="element clickable method public method_getProductQtyForProduct" data-toggle="collapse" data-target=".method_getProductQtyForProduct .collapse">
+<h2>This function is used to get product   quantity from db.</h2>
+<pre>getProductQtyForProduct() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_getProductTitle"></a><div class="element clickable method public method_getProductTitle" data-toggle="collapse" data-target=".method_getProductTitle .collapse">
+<h2>This function is used to get product title from db</h2>
+<pre>getProductTitle(integer $prodid) : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$prodid</h4>
+<code>integer</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_getTaxSettings"></a><div class="element clickable method public method_getTaxSettings" data-toggle="collapse" data-target=".method_getTaxSettings .collapse">
+<h2>This function is used to get tax settings  .</h2>
+<pre>getTaxSettings() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_insertBillingAddress"></a><div class="element clickable method public method_insertBillingAddress" data-toggle="collapse" data-target=".method_insertBillingAddress .collapse">
+<h2>This function is used to insert the billing address.</h2>
+<pre>insertBillingAddress() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_insertShipping"></a><div class="element clickable method public method_insertShipping" data-toggle="collapse" data-target=".method_insertShipping .collapse">
+<h2>This function is used to insert shipping address  in session</h2>
+<pre>insertShipping() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_insertShippingAddress"></a><div class="element clickable method public method_insertShippingAddress" data-toggle="collapse" data-target=".method_insertShippingAddress .collapse">
+<h2>This function is used to insert the shipping address.</h2>
+<pre>insertShippingAddress() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_mergeSessionWithCartDatabase"></a><div class="element clickable method public method_mergeSessionWithCartDatabase" data-toggle="collapse" data-target=".method_mergeSessionWithCartDatabase .collapse">
+<h2>This function is used for merging the cart data with session</h2>
+<pre>mergeSessionWithCartDatabase() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_redeemCoupon"></a><div class="element clickable method public method_redeemCoupon" data-toggle="collapse" data-target=".method_redeemCoupon .collapse">
+<h2>This function is used to get product   redeem  coupon from db.</h2>
+<pre>redeemCoupon(array $arr) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>array</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showBillingDetails"></a><div class="element clickable method public method_showBillingDetails" data-toggle="collapse" data-target=".method_showBillingDetails .collapse">
+<h2>This function is used to get the billin address.</h2>
+<pre>showBillingDetails(array $Err) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$Err</h4>
+<code>array</code><p>contains both error messages and values</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showCart"></a><div class="element clickable method public method_showCart" data-toggle="collapse" data-target=".method_showCart .collapse">
+<h2>This function is used to show  the cart  item</h2>
+<pre>showCart() : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_showOrderConfirmation"></a><div class="element clickable method public method_showOrderConfirmation" data-toggle="collapse" data-target=".method_showOrderConfirmation .collapse">
+<h2>This function is used to show the order confirmation</h2>
+<pre>showOrderConfirmation(string $message) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$message</h4>
+<code>string</code><p>contains both error messages and values</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showPaymentPageFor2Checkout"></a><div class="element clickable method public method_showPaymentPageFor2Checkout" data-toggle="collapse" data-target=".method_showPaymentPageFor2Checkout .collapse">
+<h2>This function is used for payment page for checkout</h2>
+<pre>showPaymentPageFor2Checkout() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showPaymentPageForAuthorizenet"></a><div class="element clickable method public method_showPaymentPageForAuthorizenet" data-toggle="collapse" data-target=".method_showPaymentPageForAuthorizenet .collapse">
+<h2>This function is used for payment page for authorizenet</h2>
+<pre>showPaymentPageForAuthorizenet() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showPaymentPageForBluepay"></a><div class="element clickable method public method_showPaymentPageForBluepay" data-toggle="collapse" data-target=".method_showPaymentPageForBluepay .collapse">
+<h2>This function is used for payment for bluepay for  user</h2>
+<pre>showPaymentPageForBluepay() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showPaymentPageForWorldPay"></a><div class="element clickable method public method_showPaymentPageForWorldPay" data-toggle="collapse" data-target=".method_showPaymentPageForWorldPay .collapse">
+<h2>This function is used for payment page for world pay</h2>
+<pre>showPaymentPageForWorldPay() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showQuickRegistration"></a><div class="element clickable method public method_showQuickRegistration" data-toggle="collapse" data-target=".method_showQuickRegistration .collapse">
+<h2>This function is used for quick registration in user guest</h2>
+<pre>showQuickRegistration(array $Err) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$Err</h4>
+<code>array</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showShippingDetails"></a><div class="element clickable method public method_showShippingDetails" data-toggle="collapse" data-target=".method_showShippingDetails .collapse">
+<h2>This function is used to get the shipping address.</h2>
+<pre>showShippingDetails(array $Err) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$Err</h4>
+<code>array</code><p>contains both error messages and values</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showShippingMethod"></a><div class="element clickable method public method_showShippingMethod" data-toggle="collapse" data-target=".method_showShippingMethod .collapse">
+<h2>This function is used to get the shipping method</h2>
+<pre>showShippingMethod(array $Err) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$Err</h4>
+<code>array</code><p>contains both error messages and values</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_updateCart"></a><div class="element clickable method public method_updateCart" data-toggle="collapse" data-target=".method_updateCart .collapse">
+<h2>This function is used to update  the cart  item</h2>
+<pre>updateCart() : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>array</code></div>
+</div></div>
+</div>
+<a id="method_validateCoupon"></a><div class="element clickable method public method_validateCoupon" data-toggle="collapse" data-target=".method_validateCoupon .collapse">
+<h2>This function is used to validate the coupon</h2>
+<pre>validateCoupon() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<h3>
+<i class="icon-custom icon-property"></i> Properties</h3>
+<a id="property_arr"> </a><div class="element clickable property public property_arr" data-toggle="collapse" data-target=".property_arr .collapse">
+<h2></h2>
+<pre>$arr : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="property_output"> </a><div class="element clickable property public property_output" data-toggle="collapse" data-target=".property_output .collapse">
+<h2></h2>
+<pre>$output : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
+            generated on 2013-03-16T16:32:50+05:30.<br></footer></div>
+</div>
+</body>
+</html>

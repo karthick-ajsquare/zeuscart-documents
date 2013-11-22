@@ -1,0 +1,425 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>phpDocumentor » \Core_CAdminHome</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">phpDocumentor</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Core.html"><i class="icon-folder-open"></i> Core</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/Display.html"><i class="icon-folder-open"></i> Display</a></li>
+<li><a href="../packages/Lib.html"><i class="icon-folder-open"></i> Lib</a></li>
+<li><a href="../packages/Model.html"><i class="icon-folder-open"></i> Model</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list"><li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods
+                    <ul>
+<li class="method public "><a href="#method_currentMonthIncome" title="currentMonthIncome :: Function gets the current month income from multiple tables."><span class="description">Function gets the current month income from multiple tables.</span><pre>currentMonthIncome()</pre></a></li>
+<li class="method public "><a href="#method_currentMonthProudctQuantity" title="currentMonthProudctQuantity :: Function gets current month product quantity from multiple tables."><span class="description">Function gets current month product quantity from multiple tables.</span><pre>currentMonthProudctQuantity()</pre></a></li>
+<li class="method public "><a href="#method_currentMonthUser" title="currentMonthUser :: Function gets the count of current month user strength from users_table."><span class="description">Function gets the count of current month user strength from users_table.</span><pre>currentMonthUser()</pre></a></li>
+<li class="method public "><a href="#method_deliveredOrders" title="deliveredOrders :: Function gets the count of orders that are delivered  from orders_table."><span class="description">Function gets the count of orders that are delivered  from orders_table.</span><pre>deliveredOrders()</pre></a></li>
+<li class="method public "><a href="#method_disabledProducts" title="disabledProducts :: Function gets count of products that are disabled from the products_table."><span class="description">Function gets count of products that are disabled from the products_table.</span><pre>disabledProducts()</pre></a></li>
+<li class="method public "><a href="#method_enabledProducts" title="enabledProducts :: Function gets count of products enabled from the products_table."><span class="description">Function gets count of products enabled from the products_table.</span><pre>enabledProducts()</pre></a></li>
+<li class="method public "><a href="#method_getCategory" title="getCategory :: Function gets the categories available from the categroy_table."><span class="description">Function gets the categories available from the categroy_table.</span><pre>getCategory()</pre></a></li>
+<li class="method public "><a href="#method_getCustomers" title="getCustomers :: Function gets count of customer details from the users_table."><span class="description">Function gets count of customer details from the users_table.</span><pre>getCustomers()</pre></a></li>
+<li class="method public "><a href="#method_getLatestCustomers" title="getLatestCustomers :: Function gets the latest customer details from users_table."><span class="description">Function gets the latest customer details from users_table.</span><pre>getLatestCustomers()</pre></a></li>
+<li class="method public "><a href="#method_getOrderCount" title="getOrderCount :: Function gets order count from the orders_table."><span class="description">Function gets order count from the orders_table.</span><pre>getOrderCount()</pre></a></li>
+<li class="method public "><a href="#method_getProducts" title="getProducts :: Function gets count of products available from products_table."><span class="description">Function gets count of products available from products_table.</span><pre>getProducts()</pre></a></li>
+<li class="method public "><a href="#method_latestOrders" title="latestOrders :: Function gets the latest orders from the orders table."><span class="description">Function gets the latest orders from the orders table.</span><pre>latestOrders()</pre></a></li>
+<li class="method public "><a href="#method_lowStock" title="lowStock :: Function gets the products under low stock from the product_invetory_table."><span class="description">Function gets the products under low stock from the product_invetory_table.</span><pre>lowStock()</pre></a></li>
+<li class="method public "><a href="#method_monthlyOrders" title="monthlyOrders :: Function gets the current month orders from orders_table."><span class="description">Function gets the current month orders from orders_table.</span><pre>monthlyOrders()</pre></a></li>
+<li class="method public "><a href="#method_newCustomers" title="newCustomers :: Function gets the new customer details from the orders_table."><span class="description">Function gets the new customer details from the orders_table.</span><pre>newCustomers()</pre></a></li>
+<li class="method public "><a href="#method_pendingOrders" title="pendingOrders :: Function gets the count of pending orders from orders_table."><span class="description">Function gets the count of pending orders from orders_table.</span><pre>pendingOrders()</pre></a></li>
+<li class="method public "><a href="#method_previousMonthOrders" title="previousMonthOrders :: Function gets the previous month orders from orders_table."><span class="description">Function gets the previous month orders from orders_table.</span><pre>previousMonthOrders()</pre></a></li>
+<li class="method public "><a href="#method_previousMonthProudctQuantity" title="previousMonthProudctQuantity :: Function gets previous month product quantity from multiple tables."><span class="description">Function gets previous month product quantity from multiple tables.</span><pre>previousMonthProudctQuantity()</pre></a></li>
+<li class="method public "><a href="#method_previousMonthUser" title="previousMonthUser :: Function gets the previous month user strength from the users_table."><span class="description">Function gets the previous month user strength from the users_table.</span><pre>previousMonthUser()</pre></a></li>
+<li class="method public "><a href="#method_previoustMonthIncome" title="previoustMonthIncome :: Function gets the previous month income from multiple tables."><span class="description">Function gets the previous month income from multiple tables.</span><pre>previoustMonthIncome()</pre></a></li>
+<li class="method public "><a href="#method_processingOrders" title="processingOrders :: Function gets the count of orders under processing from orders_table."><span class="description">Function gets the count of orders under processing from orders_table.</span><pre>processingOrders()</pre></a></li>
+<li class="method public "><a href="#method_productsInOrderTable" title="productsInOrderTable :: Function gets the products in order table."><span class="description">Function gets the products in order table.</span><pre>productsInOrderTable()</pre></a></li>
+<li class="method public "><a href="#method_totalIncome" title="totalIncome :: Function gets the total income from multiple tables."><span class="description">Function gets the total income from multiple tables.</span><pre>totalIncome()</pre></a></li>
+<li class="method public "><a href="#method_totalOrders" title="totalOrders :: Function gets the count of total orders from orders_table."><span class="description">Function gets the count of total orders from orders_table.</span><pre>totalOrders()</pre></a></li>
+<li class="method public "><a href="#method_totalProducts" title="totalProducts :: Function gets total products count from the products_table."><span class="description">Function gets total products count from the products_table.</span><pre>totalProducts()</pre></a></li>
+<li class="method public "><a href="#method_totalProudctQuantity" title="totalProudctQuantity :: Function gets the total product quantity from multiple tables."><span class="description">Function gets the total product quantity from multiple tables.</span><pre>totalProudctQuantity()</pre></a></li>
+<li class="method public "><a href="#method_totalUsers" title="totalUsers :: Function gets the total users count from the users_table."><span class="description">Function gets the total users count from the users_table.</span><pre>totalUsers()</pre></a></li>
+<li class="method public "><a href="#method_userName" title="userName :: Function sets the admin and subadmin name in the session for displaying."><span class="description">Function sets the admin and subadmin name in the session for displaying.</span><pre>userName()</pre></a></li>
+</ul>
+</li></ul>
+</div>
+<div class="span8">
+<a id="\Core_CAdminHome"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/global.html">global</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/Core_CAdminHome.html">Core_CAdminHome</a>
+</li>
+</ul>
+<div class="element class">
+<p class="short_description">This class contains functions to get the data needed for the site statistics from various tables</p>
+<div class="details">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>package</th>
+<td><a href="../packages/Core.CAdminHome.html">Core_CAdminHome</a></td>
+</tr>
+<tr>
+<th>category</th>
+<td>Core</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">AjSquareInc Dev Team</a></td>
+</tr>
+<tr>
+<th>link</th>
+<td><a href="http://www.zeuscart.com">http://www.zeuscart.com</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright (c) 2008 - 2013, AjSquare, Inc.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>Version 4.0</td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a id="method_currentMonthIncome"></a><div class="element clickable method public method_currentMonthIncome" data-toggle="collapse" data-target=".method_currentMonthIncome .collapse">
+<h2>Function gets the current month income from multiple tables.</h2>
+<pre>currentMonthIncome() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_currentMonthProudctQuantity"></a><div class="element clickable method public method_currentMonthProudctQuantity" data-toggle="collapse" data-target=".method_currentMonthProudctQuantity .collapse">
+<h2>Function gets current month product quantity from multiple tables.</h2>
+<pre>currentMonthProudctQuantity() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_currentMonthUser"></a><div class="element clickable method public method_currentMonthUser" data-toggle="collapse" data-target=".method_currentMonthUser .collapse">
+<h2>Function gets the count of current month user strength from users_table.</h2>
+<pre>currentMonthUser() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_deliveredOrders"></a><div class="element clickable method public method_deliveredOrders" data-toggle="collapse" data-target=".method_deliveredOrders .collapse">
+<h2>Function gets the count of orders that are delivered  from orders_table.</h2>
+<pre>deliveredOrders() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_disabledProducts"></a><div class="element clickable method public method_disabledProducts" data-toggle="collapse" data-target=".method_disabledProducts .collapse">
+<h2>Function gets count of products that are disabled from the products_table.</h2>
+<pre>disabledProducts() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_enabledProducts"></a><div class="element clickable method public method_enabledProducts" data-toggle="collapse" data-target=".method_enabledProducts .collapse">
+<h2>Function gets count of products enabled from the products_table.</h2>
+<pre>enabledProducts() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_getCategory"></a><div class="element clickable method public method_getCategory" data-toggle="collapse" data-target=".method_getCategory .collapse">
+<h2>Function gets the categories available from the categroy_table.</h2>
+<pre>getCategory() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_getCustomers"></a><div class="element clickable method public method_getCustomers" data-toggle="collapse" data-target=".method_getCustomers .collapse">
+<h2>Function gets count of customer details from the users_table.</h2>
+<pre>getCustomers() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_getLatestCustomers"></a><div class="element clickable method public method_getLatestCustomers" data-toggle="collapse" data-target=".method_getLatestCustomers .collapse">
+<h2>Function gets the latest customer details from users_table.</h2>
+<pre>getLatestCustomers() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_getOrderCount"></a><div class="element clickable method public method_getOrderCount" data-toggle="collapse" data-target=".method_getOrderCount .collapse">
+<h2>Function gets order count from the orders_table.</h2>
+<pre>getOrderCount() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_getProducts"></a><div class="element clickable method public method_getProducts" data-toggle="collapse" data-target=".method_getProducts .collapse">
+<h2>Function gets count of products available from products_table.</h2>
+<pre>getProducts() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_latestOrders"></a><div class="element clickable method public method_latestOrders" data-toggle="collapse" data-target=".method_latestOrders .collapse">
+<h2>Function gets the latest orders from the orders table.</h2>
+<pre>latestOrders() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_lowStock"></a><div class="element clickable method public method_lowStock" data-toggle="collapse" data-target=".method_lowStock .collapse">
+<h2>Function gets the products under low stock from the product_invetory_table.</h2>
+<pre>lowStock() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_monthlyOrders"></a><div class="element clickable method public method_monthlyOrders" data-toggle="collapse" data-target=".method_monthlyOrders .collapse">
+<h2>Function gets the current month orders from orders_table.</h2>
+<pre>monthlyOrders() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_newCustomers"></a><div class="element clickable method public method_newCustomers" data-toggle="collapse" data-target=".method_newCustomers .collapse">
+<h2>Function gets the new customer details from the orders_table.</h2>
+<pre>newCustomers() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_pendingOrders"></a><div class="element clickable method public method_pendingOrders" data-toggle="collapse" data-target=".method_pendingOrders .collapse">
+<h2>Function gets the count of pending orders from orders_table.</h2>
+<pre>pendingOrders() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_previousMonthOrders"></a><div class="element clickable method public method_previousMonthOrders" data-toggle="collapse" data-target=".method_previousMonthOrders .collapse">
+<h2>Function gets the previous month orders from orders_table.</h2>
+<pre>previousMonthOrders() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_previousMonthProudctQuantity"></a><div class="element clickable method public method_previousMonthProudctQuantity" data-toggle="collapse" data-target=".method_previousMonthProudctQuantity .collapse">
+<h2>Function gets previous month product quantity from multiple tables.</h2>
+<pre>previousMonthProudctQuantity() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_previousMonthUser"></a><div class="element clickable method public method_previousMonthUser" data-toggle="collapse" data-target=".method_previousMonthUser .collapse">
+<h2>Function gets the previous month user strength from the users_table.</h2>
+<pre>previousMonthUser() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_previoustMonthIncome"></a><div class="element clickable method public method_previoustMonthIncome" data-toggle="collapse" data-target=".method_previoustMonthIncome .collapse">
+<h2>Function gets the previous month income from multiple tables.</h2>
+<pre>previoustMonthIncome() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_processingOrders"></a><div class="element clickable method public method_processingOrders" data-toggle="collapse" data-target=".method_processingOrders .collapse">
+<h2>Function gets the count of orders under processing from orders_table.</h2>
+<pre>processingOrders() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_productsInOrderTable"></a><div class="element clickable method public method_productsInOrderTable" data-toggle="collapse" data-target=".method_productsInOrderTable .collapse">
+<h2>Function gets the products in order table.</h2>
+<pre>productsInOrderTable() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_totalIncome"></a><div class="element clickable method public method_totalIncome" data-toggle="collapse" data-target=".method_totalIncome .collapse">
+<h2>Function gets the total income from multiple tables.</h2>
+<pre>totalIncome() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_totalOrders"></a><div class="element clickable method public method_totalOrders" data-toggle="collapse" data-target=".method_totalOrders .collapse">
+<h2>Function gets the count of total orders from orders_table.</h2>
+<pre>totalOrders() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_totalProducts"></a><div class="element clickable method public method_totalProducts" data-toggle="collapse" data-target=".method_totalProducts .collapse">
+<h2>Function gets total products count from the products_table.</h2>
+<pre>totalProducts() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_totalProudctQuantity"></a><div class="element clickable method public method_totalProudctQuantity" data-toggle="collapse" data-target=".method_totalProudctQuantity .collapse">
+<h2>Function gets the total product quantity from multiple tables.</h2>
+<pre>totalProudctQuantity() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_totalUsers"></a><div class="element clickable method public method_totalUsers" data-toggle="collapse" data-target=".method_totalUsers .collapse">
+<h2>Function gets the total users count from the users_table.</h2>
+<pre>totalUsers() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_userName"></a><div class="element clickable method public method_userName" data-toggle="collapse" data-target=".method_userName .collapse">
+<h2>Function sets the admin and subadmin name in the session for displaying.</h2>
+<pre>userName() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
+            generated on 2013-03-16T16:38:44+05:30.<br></footer></div>
+</div>
+</body>
+</html>

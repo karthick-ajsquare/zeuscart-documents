@@ -1,0 +1,371 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>phpDocumentor » \Display_DManageProducts</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">phpDocumentor</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Core.html"><i class="icon-folder-open"></i> Core</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/Display.html"><i class="icon-folder-open"></i> Display</a></li>
+<li><a href="../packages/Lib.html"><i class="icon-folder-open"></i> Lib</a></li>
+<li><a href="../packages/Model.html"><i class="icon-folder-open"></i> Model</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list"><li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods
+                    <ul>
+<li class="method public "><a href="#method_dispProductTitle" title="dispProductTitle :: Function creates a template to display the product titles available."><span class="description">Function creates a template to display the product titles available.</span><pre>dispProductTitle()</pre></a></li>
+<li class="method public "><a href="#method_displayCategory" title="displayCategory :: Function displays a template for the categories available."><span class="description">Function displays a template for the categories available.</span><pre>displayCategory()</pre></a></li>
+<li class="method public "><a href="#method_displaySubCategory" title="displaySubCategory :: Function displays a template for the sub categories available."><span class="description">Function displays a template for the sub categories available.</span><pre>displaySubCategory()</pre></a></li>
+<li class="method public "><a href="#method_displaySubUnderCategory" title="displaySubUnderCategory :: Function displays a template for the sub categories available."><span class="description">Function displays a template for the sub categories available.</span><pre>displaySubUnderCategory()</pre></a></li>
+<li class="method public "><a href="#method_editAttributes" title="editAttributes :: Function creates a template for updating the available attributes."><span class="description">Function creates a template for updating the available attributes.</span><pre>editAttributes()</pre></a></li>
+<li class="method public "><a href="#method_editImage" title="editImage :: Function displays a template for uploading the image."><span class="description">Function displays a template for uploading the image.</span><pre>editImage()</pre></a></li>
+<li class="method public "><a href="#method_editMainImage" title="editMainImage :: Function displays a template for uploading the image."><span class="description">Function displays a template for uploading the image.</span><pre>editMainImage()</pre></a></li>
+<li class="method public "><a href="#method_editProduct" title="editProduct :: Function creates a template to display the product details available."><span class="description">Function creates a template to display the product details available.</span><pre>editProduct()</pre></a></li>
+<li class="method public "><a href="#method_editRelated" title="editRelated :: Function creates a template to display the product details available."><span class="description">Function creates a template to display the product details available.</span><pre>editRelated()</pre></a></li>
+<li class="method public "><a href="#method_editTierPrice" title="editTierPrice :: Function creates a template for updating the tier price available."><span class="description">Function creates a template for updating the tier price available.</span><pre>editTierPrice()</pre></a></li>
+<li class="method public "><a href="#method_getTitle" title="getTitle :: Function creates a template to display the titles available."><span class="description">Function creates a template to display the titles available.</span><pre>getTitle()</pre></a></li>
+<li class="method public "><a href="#method_productList" title="productList :: Function creates a template to display the product lists available."><span class="description">Function creates a template to display the product lists available.</span><pre>productList()</pre></a></li>
+<li class="method public "><a href="#method_showAllProducts" title="showAllProducts :: Function creates a template to display all the products available in the database."><span class="description">Function creates a template to display all the products available in the database.</span><pre>showAllProducts()</pre></a></li>
+</ul>
+</li></ul>
+</div>
+<div class="span8">
+<a id="\Display_DManageProducts"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/global.html">global</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/Display_DManageProducts.html">Display_DManageProducts</a>
+</li>
+</ul>
+<div class="element class">
+<p class="short_description">This class contains functions to list out the search results.</p>
+<div class="details">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>package</th>
+<td><a href="../packages/Display.DManageProducts.html">Display_DManageProducts</a></td>
+</tr>
+<tr>
+<th>category</th>
+<td>Display</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">AjSquareInc Dev Team</a></td>
+</tr>
+<tr>
+<th>link</th>
+<td><a href="http://www.zeuscart.com">http://www.zeuscart.com</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright (c) 2008 - 2013, AjSquare, Inc.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>Version 4.0</td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a id="method_dispProductTitle"></a><div class="element clickable method public method_dispProductTitle" data-toggle="collapse" data-target=".method_dispProductTitle .collapse">
+<h2>Function creates a template to display the product titles available.</h2>
+<pre>dispProductTitle(array $arr) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>array</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_displayCategory"></a><div class="element clickable method public method_displayCategory" data-toggle="collapse" data-target=".method_displayCategory .collapse">
+<h2>Function displays a template for the categories available.</h2>
+<pre>displayCategory(array $result, integer $catid) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$result</h4>
+<code>array</code>
+</div>
+<div class="subelement argument">
+<h4>$catid</h4>
+<code>integer</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_displaySubCategory"></a><div class="element clickable method public method_displaySubCategory" data-toggle="collapse" data-target=".method_displaySubCategory .collapse">
+<h2>Function displays a template for the sub categories available.</h2>
+<pre>displaySubCategory(array $result, integer $subcatid) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$result</h4>
+<code>array</code>
+</div>
+<div class="subelement argument">
+<h4>$subcatid</h4>
+<code>integer</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_displaySubUnderCategory"></a><div class="element clickable method public method_displaySubUnderCategory" data-toggle="collapse" data-target=".method_displaySubUnderCategory .collapse">
+<h2>Function displays a template for the sub categories available.</h2>
+<pre>displaySubUnderCategory(array $result, integer $subcatid) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$result</h4>
+<code>array</code>
+</div>
+<div class="subelement argument">
+<h4>$subcatid</h4>
+<code>integer</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_editAttributes"></a><div class="element clickable method public method_editAttributes" data-toggle="collapse" data-target=".method_editAttributes .collapse">
+<h2>Function creates a template for updating the available attributes.</h2>
+<pre>editAttributes(array $result, array $arr) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$result</h4>
+<code>array</code>
+</div>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>array</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_editImage"></a><div class="element clickable method public method_editImage" data-toggle="collapse" data-target=".method_editImage .collapse">
+<h2>Function displays a template for uploading the image.</h2>
+<pre>editImage(array $sub) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$sub</h4>
+<code>array</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_editMainImage"></a><div class="element clickable method public method_editMainImage" data-toggle="collapse" data-target=".method_editMainImage .collapse">
+<h2>Function displays a template for uploading the image.</h2>
+<pre>editMainImage(string $main) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$main</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_editProduct"></a><div class="element clickable method public method_editProduct" data-toggle="collapse" data-target=".method_editProduct .collapse">
+<h2>Function creates a template to display the product details available.</h2>
+<pre>editProduct(array $result, string $category, string $subcat) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$result</h4>
+<code>array</code>
+</div>
+<div class="subelement argument">
+<h4>$category</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$subcat</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_editRelated"></a><div class="element clickable method public method_editRelated" data-toggle="collapse" data-target=".method_editRelated .collapse">
+<h2>Function creates a template to display the product details available.</h2>
+<pre>editRelated(array $arr, string $value) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>array</code>
+</div>
+<div class="subelement argument">
+<h4>$value</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_editTierPrice"></a><div class="element clickable method public method_editTierPrice" data-toggle="collapse" data-target=".method_editTierPrice .collapse">
+<h2>Function creates a template for updating the tier price available.</h2>
+<pre>editTierPrice(array $arr) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>array</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_getTitle"></a><div class="element clickable method public method_getTitle" data-toggle="collapse" data-target=".method_getTitle .collapse">
+<h2>Function creates a template to display the titles available.</h2>
+<pre>getTitle(array $arr) : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>array</code>
+</div>
+</div></div>
+</div>
+<a id="method_productList"></a><div class="element clickable method public method_productList" data-toggle="collapse" data-target=".method_productList .collapse">
+<h2>Function creates a template to display the product lists available.</h2>
+<pre>productList(array $arr) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>array</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showAllProducts"></a><div class="element clickable method public method_showAllProducts" data-toggle="collapse" data-target=".method_showAllProducts .collapse">
+<h2>Function creates a template to display all the products available in the database.</h2>
+<pre>showAllProducts(array $arr, integer $flag, integer $paging, integer $prev, integer $next, integer $start) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>array</code>
+</div>
+<div class="subelement argument">
+<h4>$flag</h4>
+<code>integer</code>
+</div>
+<div class="subelement argument">
+<h4>$paging</h4>
+<code>integer</code>
+</div>
+<div class="subelement argument">
+<h4>$prev</h4>
+<code>integer</code>
+</div>
+<div class="subelement argument">
+<h4>$next</h4>
+<code>integer</code>
+</div>
+<div class="subelement argument">
+<h4>$start</h4>
+<code>integer</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
+            generated on 2013-03-16T16:38:42+05:30.<br></footer></div>
+</div>
+</body>
+</html>

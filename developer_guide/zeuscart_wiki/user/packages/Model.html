@@ -1,0 +1,582 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>phpDocumentor » Model</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">phpDocumentor</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Core.html"><i class="icon-folder-open"></i> Core</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/Display.html"><i class="icon-folder-open"></i> Display</a></li>
+<li><a href="../packages/Lib.html"><i class="icon-folder-open"></i> Lib</a></li>
+<li><a href="../packages/Model.html"><i class="icon-folder-open"></i> Model</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-map-marker"></i> Packages</li>
+<li>
+<span class="empty-package"><i class="icon-folder-close"></i>Model</span><ul class="nav nav-list nav-packages">
+<li>
+<a href="../packages/Model.MAddCart.html" title="MAddCart"><i class="icon-folder-open"></i>MAddCart</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MCaptcha.html" title="MCaptcha"><i class="icon-folder-open"></i>MCaptcha</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MCurrencySettings.html" title="MCurrencySettings"><i class="icon-folder-open"></i>MCurrencySettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MError.html" title="MError"><i class="icon-folder-open"></i>MError</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MFaq.html" title="MFaq"><i class="icon-folder-open"></i>MFaq</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MFeaturedItems.html" title="MFeaturedItems"><i class="icon-folder-open"></i>MFeaturedItems</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MFooterLinks.html" title="MFooterLinks"><i class="icon-folder-open"></i>MFooterLinks</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MHome.html" title="MHome"><i class="icon-folder-open"></i>MHome</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MHsbcPayment.html" title="MHsbcPayment"><i class="icon-folder-open"></i>MHsbcPayment</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MKeywordSearch.html" title="MKeywordSearch"><i class="icon-folder-open"></i>MKeywordSearch</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MLastViewedProducts.html" title="MLastViewedProducts"><i class="icon-folder-open"></i>MLastViewedProducts</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MNewProducts.html" title="MNewProducts"><i class="icon-folder-open"></i>MNewProducts</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MNews.html" title="MNews"><i class="icon-folder-open"></i>MNews</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MOrderHistory.html" title="MOrderHistory"><i class="icon-folder-open"></i>MOrderHistory</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MPaymentGateways.html" title="MPaymentGateways"><i class="icon-folder-open"></i>MPaymentGateways</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MPriceCompare.html" title="MPriceCompare"><i class="icon-folder-open"></i>MPriceCompare</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MProductDetail.html" title="MProductDetail"><i class="icon-folder-open"></i>MProductDetail</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MProductReview.html" title="MProductReview"><i class="icon-folder-open"></i>MProductReview</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MQuickInfo.html" title="MQuickInfo"><i class="icon-folder-open"></i>MQuickInfo</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MRss.html" title="MRss"><i class="icon-folder-open"></i>MRss</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MRssFeed.html" title="MRssFeed"><i class="icon-folder-open"></i>MRssFeed</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MSiteMap.html" title="MSiteMap"><i class="icon-folder-open"></i>MSiteMap</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MUserAccount.html" title="MUserAccount"><i class="icon-folder-open"></i>MUserAccount</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MUserRegistration.html" title="MUserRegistration"><i class="icon-folder-open"></i>MUserRegistration</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MWishList.html" title="MWishList"><i class="icon-folder-open"></i>MWishList</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="span8 package-contents">
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li class="active"><a href="../packages/Model.html">Model</a></li>
+</li></ul>
+<div class="package-indent">
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAddCart.html">MAddCart</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAddCart" class="element ajax clickable class">
+<h1>Model_MAddCart<a href="../classes/Model_MAddCart.html">¶</a>
+</h1>
+<p class="short_description">Add to cart  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAddCart.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MCaptcha.html">MCaptcha</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MCaptcha" class="element ajax clickable class">
+<h1>Model_MCaptcha<a href="../classes/Model_MCaptcha.html">¶</a>
+</h1>
+<p class="short_description">Captcha  code  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MCaptcha.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MCurrencySettings.html">MCurrencySettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MCurrencySettings" class="element ajax clickable class">
+<h1>Model_MCurrencySettings<a href="../classes/Model_MCurrencySettings.html">¶</a>
+</h1>
+<p class="short_description">Currency settings  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MCurrencySettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MError.html">MError</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MError" class="element ajax clickable class">
+<h1>Model_MError<a href="../classes/Model_MError.html">¶</a>
+</h1>
+<p class="short_description">Error page  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MError.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MFaq.html">MFaq</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MFaq" class="element ajax clickable class">
+<h1>Model_MFaq<a href="../classes/Model_MFaq.html">¶</a>
+</h1>
+<p class="short_description">Faq  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MFaq.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MFeaturedItems.html">MFeaturedItems</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MFeaturedItems" class="element ajax clickable class">
+<h1>Model_MFeaturedItems<a href="../classes/Model_MFeaturedItems.html">¶</a>
+</h1>
+<p class="short_description">Featured items  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MFeaturedItems.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MFooterLinks.html">MFooterLinks</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MFooterLinks" class="element ajax clickable class">
+<h1>Model_MFooterLinks<a href="../classes/Model_MFooterLinks.html">¶</a>
+</h1>
+<p class="short_description">Footer links  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MFooterLinks.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MHome.html">MHome</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MHome" class="element ajax clickable class">
+<h1>Model_MHome<a href="../classes/Model_MHome.html">¶</a>
+</h1>
+<p class="short_description">Footer links  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MHome.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MHsbcPayment.html">MHsbcPayment</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MHsbcPayment" class="element ajax clickable class">
+<h1>Model_MHsbcPayment<a href="../classes/Model_MHsbcPayment.html">¶</a>
+</h1>
+<p class="short_description">HSBC payment  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MHsbcPayment.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MKeywordSearch.html">MKeywordSearch</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MKeywordSearch" class="element ajax clickable class">
+<h1>Model_MKeywordSearch<a href="../classes/Model_MKeywordSearch.html">¶</a>
+</h1>
+<p class="short_description">Keyword search related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MKeywordSearch.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MLastViewedProducts.html">MLastViewedProducts</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MLastViewedProducts" class="element ajax clickable class">
+<h1>Model_MLastViewedProducts<a href="../classes/Model_MLastViewedProducts.html">¶</a>
+</h1>
+<p class="short_description">Last viewed products related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MLastViewedProducts.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MNewProducts.html">MNewProducts</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MNewProducts" class="element ajax clickable class">
+<h1>Model_MNewProducts<a href="../classes/Model_MNewProducts.html">¶</a>
+</h1>
+<p class="short_description">New products related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MNewProducts.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MNews.html">MNews</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MNews" class="element ajax clickable class">
+<h1>Model_MNews<a href="../classes/Model_MNews.html">¶</a>
+</h1>
+<p class="short_description">News related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MNews.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MOrderHistory.html">MOrderHistory</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MOrderHistory" class="element ajax clickable class">
+<h1>Model_MOrderHistory<a href="../classes/Model_MOrderHistory.html">¶</a>
+</h1>
+<p class="short_description">Order history related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MOrderHistory.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MPaymentGateways.html">MPaymentGateways</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MPaymentGateways" class="element ajax clickable class">
+<h1>Model_MPaymentGateways<a href="../classes/Model_MPaymentGateways.html">¶</a>
+</h1>
+<p class="short_description">Payment gateway related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MPaymentGateways.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MPriceCompare.html">MPriceCompare</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MPriceCompare" class="element ajax clickable class">
+<h1>Model_MPriceCompare<a href="../classes/Model_MPriceCompare.html">¶</a>
+</h1>
+<p class="short_description">Price comparison related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MPriceCompare.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MProductDetail.html">MProductDetail</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MProductDetail" class="element ajax clickable class">
+<h1>Model_MProductDetail<a href="../classes/Model_MProductDetail.html">¶</a>
+</h1>
+<p class="short_description">Product details related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MProductDetail.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MProductReview.html">MProductReview</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MProductReview" class="element ajax clickable class">
+<h1>Model_MProductReview<a href="../classes/Model_MProductReview.html">¶</a>
+</h1>
+<p class="short_description">Product review related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MProductReview.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MQuickInfo.html">MQuickInfo</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MQuickInfo" class="element ajax clickable class">
+<h1>Model_MQuickInfo<a href="../classes/Model_MQuickInfo.html">¶</a>
+</h1>
+<p class="short_description">QUick information related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MQuickInfo.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MRss.html">MRss</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MRss" class="element ajax clickable class">
+<h1>Model_MRss<a href="../classes/Model_MRss.html">¶</a>
+</h1>
+<p class="short_description">Rich Site Summary  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MRss.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MRssFeed.html">MRssFeed</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MRssFeed" class="element ajax clickable class">
+<h1>Model_MRssFeed<a href="../classes/Model_MRssFeed.html">¶</a>
+</h1>
+<p class="short_description">Rich Site Summary Feed related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MRssFeed.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MSiteMap.html">MSiteMap</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MSiteMap" class="element ajax clickable class">
+<h1>Model_MSiteMap<a href="../classes/Model_MSiteMap.html">¶</a>
+</h1>
+<p class="short_description">Site map  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MSiteMap.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MUserAccount.html">MUserAccount</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MUserAccount" class="element ajax clickable class">
+<h1>Model_MUserAccount<a href="../classes/Model_MUserAccount.html">¶</a>
+</h1>
+<p class="short_description">User account  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MUserAccount.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MUserRegistration.html">MUserRegistration</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MUserRegistration" class="element ajax clickable class">
+<h1>Model_MUserRegistration<a href="../classes/Model_MUserRegistration.html">¶</a>
+</h1>
+<p class="short_description">User registration  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MUserRegistration.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MWishList.html">MWishList</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MWishList" class="element ajax clickable class">
+<h1>Model_MWishList<a href="../classes/Model_MWishList.html">¶</a>
+</h1>
+<p class="short_description">Wish list  related  class</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MWishList.html" class="more">« More »</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
+            generated on 2013-03-16T16:32:48+05:30.<br></footer></div>
+</div>
+</body>
+</html>

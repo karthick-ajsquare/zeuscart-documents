@@ -1,0 +1,1775 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>phpDocumentor » Model</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">phpDocumentor</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Core.html"><i class="icon-folder-open"></i> Core</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/Display.html"><i class="icon-folder-open"></i> Display</a></li>
+<li><a href="../packages/Lib.html"><i class="icon-folder-open"></i> Lib</a></li>
+<li><a href="../packages/Model.html"><i class="icon-folder-open"></i> Model</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-map-marker"></i> Packages</li>
+<li>
+<span class="empty-package"><i class="icon-folder-close"></i>Model</span><ul class="nav nav-list nav-packages">
+<li>
+<a href="../packages/Model.MAboutUs.html" title="MAboutUs"><i class="icon-folder-open"></i>MAboutUs</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAdWord.html" title="MAdWord"><i class="icon-folder-open"></i>MAdWord</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAddAttributeValues.html" title="MAddAttributeValues"><i class="icon-folder-open"></i>MAddAttributeValues</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAddAttributes.html" title="MAddAttributes"><i class="icon-folder-open"></i>MAddAttributes</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAddCrossProducts.html" title="MAddCrossProducts"><i class="icon-folder-open"></i>MAddCrossProducts</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAddMainCategory.html" title="MAddMainCategory"><i class="icon-folder-open"></i>MAddMainCategory</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAddSubCategory.html" title="MAddSubCategory"><i class="icon-folder-open"></i>MAddSubCategory</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAdminActivity.html" title="MAdminActivity"><i class="icon-folder-open"></i>MAdminActivity</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAdminActivityDataExport.html" title="MAdminActivityDataExport"><i class="icon-folder-open"></i>MAdminActivityDataExport</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAdminEmailSettings.html" title="MAdminEmailSettings"><i class="icon-folder-open"></i>MAdminEmailSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAdminHome.html" title="MAdminHome"><i class="icon-folder-open"></i>MAdminHome</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAdminLogin.html" title="MAdminLogin"><i class="icon-folder-open"></i>MAdminLogin</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAdminPaymentGateway.html" title="MAdminPaymentGateway"><i class="icon-folder-open"></i>MAdminPaymentGateway</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAdminProductReview.html" title="MAdminProductReview"><i class="icon-folder-open"></i>MAdminProductReview</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAdminRoleManagement.html" title="MAdminRoleManagement"><i class="icon-folder-open"></i>MAdminRoleManagement</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAdminUserRegistration.html" title="MAdminUserRegistration"><i class="icon-folder-open"></i>MAdminUserRegistration</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAdminmap.html" title="MAdminmap"><i class="icon-folder-open"></i>MAdminmap</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MAutoComplete.html" title="MAutoComplete"><i class="icon-folder-open"></i>MAutoComplete</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MBestSellingProducts.html" title="MBestSellingProducts"><i class="icon-folder-open"></i>MBestSellingProducts</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MCategoryBulkUpload.html" title="MCategoryBulkUpload"><i class="icon-folder-open"></i>MCategoryBulkUpload</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MCategoryDataExport.html" title="MCategoryDataExport"><i class="icon-folder-open"></i>MCategoryDataExport</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MCategoryList.html" title="MCategoryList"><i class="icon-folder-open"></i>MCategoryList</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MCategoryManagement.html" title="MCategoryManagement"><i class="icon-folder-open"></i>MCategoryManagement</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MCategorySelection.html" title="MCategorySelection"><i class="icon-folder-open"></i>MCategorySelection</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MChart.html" title="MChart"><i class="icon-folder-open"></i>MChart</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MContactUs.html" title="MContactUs"><i class="icon-folder-open"></i>MContactUs</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MContentManagement.html" title="MContentManagement"><i class="icon-folder-open"></i>MContentManagement</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MCopyrights.html" title="MCopyrights"><i class="icon-folder-open"></i>MCopyrights</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MCreatePage.html" title="MCreatePage"><i class="icon-folder-open"></i>MCreatePage</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MCse.html" title="MCse"><i class="icon-folder-open"></i>MCse</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MCurrencySettings.html" title="MCurrencySettings"><i class="icon-folder-open"></i>MCurrencySettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MCustomHeader.html" title="MCustomHeader"><i class="icon-folder-open"></i>MCustomHeader</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MError.html" title="MError"><i class="icon-folder-open"></i>MError</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MFaq.html" title="MFaq"><i class="icon-folder-open"></i>MFaq</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MFooterSettings.html" title="MFooterSettings"><i class="icon-folder-open"></i>MFooterSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MGoogleAdSense.html" title="MGoogleAdSense"><i class="icon-folder-open"></i>MGoogleAdSense</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MGoogleAdWords.html" title="MGoogleAdWords"><i class="icon-folder-open"></i>MGoogleAdWords</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MGoogleAnalytics.html" title="MGoogleAnalytics"><i class="icon-folder-open"></i>MGoogleAnalytics</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MGoogleBase.html" title="MGoogleBase"><i class="icon-folder-open"></i>MGoogleBase</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MHeaderSettings.html" title="MHeaderSettings"><i class="icon-folder-open"></i>MHeaderSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MHomePageBanner.html" title="MHomePageBanner"><i class="icon-folder-open"></i>MHomePageBanner</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MKeywordSearch.html" title="MKeywordSearch"><i class="icon-folder-open"></i>MKeywordSearch</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MLatestOrders.html" title="MLatestOrders"><i class="icon-folder-open"></i>MLatestOrders</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MMailMessageSettings.html" title="MMailMessageSettings"><i class="icon-folder-open"></i>MMailMessageSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MManageProducts.html" title="MManageProducts"><i class="icon-folder-open"></i>MManageProducts</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MMostSearchedKeywords.html" title="MMostSearchedKeywords"><i class="icon-folder-open"></i>MMostSearchedKeywords</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MNarrowSearch.html" title="MNarrowSearch"><i class="icon-folder-open"></i>MNarrowSearch</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MNewsManagement.html" title="MNewsManagement"><i class="icon-folder-open"></i>MNewsManagement</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MNewsletterSettings.html" title="MNewsletterSettings"><i class="icon-folder-open"></i>MNewsletterSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MOrderDataExport.html" title="MOrderDataExport"><i class="icon-folder-open"></i>MOrderDataExport</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MOrderListDetailView.html" title="MOrderListDetailView"><i class="icon-folder-open"></i>MOrderListDetailView</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MOrderManagement.html" title="MOrderManagement"><i class="icon-folder-open"></i>MOrderManagement</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MOrderStatusManagement.html" title="MOrderStatusManagement"><i class="icon-folder-open"></i>MOrderStatusManagement</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MPageManagement.html" title="MPageManagement"><i class="icon-folder-open"></i>MPageManagement</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MPayPal.html" title="MPayPal"><i class="icon-folder-open"></i>MPayPal</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MPolls.html" title="MPolls"><i class="icon-folder-open"></i>MPolls</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MPrivacyPolicy.html" title="MPrivacyPolicy"><i class="icon-folder-open"></i>MPrivacyPolicy</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MProductBulkUpload.html" title="MProductBulkUpload"><i class="icon-folder-open"></i>MProductBulkUpload</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MProductDataExport.html" title="MProductDataExport"><i class="icon-folder-open"></i>MProductDataExport</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MProductDetail.html" title="MProductDetail"><i class="icon-folder-open"></i>MProductDetail</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MProductEntry.html" title="MProductEntry"><i class="icon-folder-open"></i>MProductEntry</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MProductFeatures.html" title="MProductFeatures"><i class="icon-folder-open"></i>MProductFeatures</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MProductInventoryManagement.html" title="MProductInventoryManagement"><i class="icon-folder-open"></i>MProductInventoryManagement</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MProductMsrpManagement.html" title="MProductMsrpManagement"><i class="icon-folder-open"></i>MProductMsrpManagement</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MProductRegistration.html" title="MProductRegistration"><i class="icon-folder-open"></i>MProductRegistration</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MPromotionalCodes.html" title="MPromotionalCodes"><i class="icon-folder-open"></i>MPromotionalCodes</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MSelectFeaturedItems.html" title="MSelectFeaturedItems"><i class="icon-folder-open"></i>MSelectFeaturedItems</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MSelectSkin.html" title="MSelectSkin"><i class="icon-folder-open"></i>MSelectSkin</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MShippingTracker.html" title="MShippingTracker"><i class="icon-folder-open"></i>MShippingTracker</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MShowContents.html" title="MShowContents"><i class="icon-folder-open"></i>MShowContents</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MShowMainCategory.html" title="MShowMainCategory"><i class="icon-folder-open"></i>MShowMainCategory</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MShowSubCategory.html" title="MShowSubCategory"><i class="icon-folder-open"></i>MShowSubCategory</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MSiteLogo.html" title="MSiteLogo"><i class="icon-folder-open"></i>MSiteLogo</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MSiteSettings.html" title="MSiteSettings"><i class="icon-folder-open"></i>MSiteSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MSiteStatistics.html" title="MSiteStatistics"><i class="icon-folder-open"></i>MSiteStatistics</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MSkin.html" title="MSkin"><i class="icon-folder-open"></i>MSkin</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MSubAdminManagement.html" title="MSubAdminManagement"><i class="icon-folder-open"></i>MSubAdminManagement</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MTaxSettings.html" title="MTaxSettings"><i class="icon-folder-open"></i>MTaxSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MTermsCondition.html" title="MTermsCondition"><i class="icon-folder-open"></i>MTermsCondition</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Model.MTimeZone.html" title="MTimeZone"><i class="icon-folder-open"></i>MTimeZone</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<span class="empty-package"><i class="icon-folder-close"></i>MUserOrder</span><ul class="nav nav-list nav-packages"><li>
+<a href="../packages/Model.MUserOrder.Model.html" title="Model"><i class="icon-folder-open"></i>Model</a><ul class="nav nav-list nav-packages"></ul>
+</li></ul>
+</li>
+<li>
+<a href="../packages/Model.MViewFeaturedItems.html" title="MViewFeaturedItems"><i class="icon-folder-open"></i>MViewFeaturedItems</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="span8 package-contents">
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li class="active"><a href="../packages/Model.html">Model</a></li>
+</li></ul>
+<div class="package-indent">
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAboutUs.html">MAboutUs</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAboutUs" class="element ajax clickable class">
+<h1>Model_MAboutUs<a href="../classes/Model_MAboutUs.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to modify the content of about us page.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAboutUs.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAdWord.html">MAdWord</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAdWord" class="element ajax clickable class">
+<h1>Model_MAdWord<a href="../classes/Model_MAdWord.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the google ad-word campaign
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAdWord.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAddAttributeValues.html">MAddAttributeValues</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAddAttributeValues" class="element ajax clickable class">
+<h1>Model_MAddAttributeValues<a href="../classes/Model_MAddAttributeValues.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display, Add, Edit and Delete Attributes Values.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAddAttributeValues.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAddAttributes.html">MAddAttributes</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAddAttributes" class="element ajax clickable class">
+<h1>Model_MAddAttributes<a href="../classes/Model_MAddAttributes.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display, Add, Edit and Delete Attributes.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAddAttributes.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAddCrossProducts.html">MAddCrossProducts</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAddCrossProducts" class="element ajax clickable class">
+<h1>Model_MAddCrossProducts<a href="../classes/Model_MAddCrossProducts.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get Categories and Sub Categories for adding cross products.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAddCrossProducts.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAddMainCategory.html">MAddMainCategory</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAddMainCategory" class="element ajax clickable class">
+<h1>Model_MAddMainCategory<a href="../classes/Model_MAddMainCategory.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to view, add, edit and delete main categories at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAddMainCategory.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAddSubCategory.html">MAddSubCategory</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAddSubCategory" class="element ajax clickable class">
+<h1>Model_MAddSubCategory<a href="../classes/Model_MAddSubCategory.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to view, add, edit and delete sub categories at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAddSubCategory.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAdminActivity.html">MAdminActivity</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAdminActivity" class="element ajax clickable class">
+<h1>Model_MAdminActivity<a href="../classes/Model_MAdminActivity.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the admin activites at the admin side</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAdminActivity.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAdminActivityDataExport.html">MAdminActivityDataExport</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAdminActivityDataExport" class="element ajax clickable class">
+<h1>Model_MAdminActivityDataExport<a href="../classes/Model_MAdminActivityDataExport.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to export the admin activity from the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAdminActivityDataExport.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAdminEmailSettings.html">MAdminEmailSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAdminEmailSettings" class="element ajax clickable class">
+<h1>Model_MAdminEmailSettings<a href="../classes/Model_MAdminEmailSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to update the changes made in the Admin Email Settings.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAdminEmailSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAdminHome.html">MAdminHome</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAdminHome" class="element ajax clickable class">
+<h1>Model_MAdminHome<a href="../classes/Model_MAdminHome.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the statistics of the site at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAdminHome.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAdminLogin.html">MAdminLogin</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAdminLogin" class="element ajax clickable class">
+<h1>Model_MAdminLogin<a href="../classes/Model_MAdminLogin.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the login page at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAdminLogin.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAdminPaymentGateway.html">MAdminPaymentGateway</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAdminPaymentGateway" class="element ajax clickable class">
+<h1>Model_MAdminPaymentGateway<a href="../classes/Model_MAdminPaymentGateway.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the payment gateways available in the site
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAdminPaymentGateway.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAdminProductReview.html">MAdminProductReview</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAdminProductReview" class="element ajax clickable class">
+<h1>Model_MAdminProductReview<a href="../classes/Model_MAdminProductReview.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the product review details
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAdminProductReview.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAdminRoleManagement.html">MAdminRoleManagement</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAdminRoleManagement" class="element ajax clickable class">
+<h1>Model_MAdminRoleManagement<a href="../classes/Model_MAdminRoleManagement.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the roles for the subadmin
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAdminRoleManagement.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAdminUserRegistration.html">MAdminUserRegistration</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAdminUserRegistration" class="element ajax clickable class">
+<h1>Model_MAdminUserRegistration<a href="../classes/Model_MAdminUserRegistration.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add, edit and delete a new customer account
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAdminUserRegistration.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAdminmap.html">MAdminmap</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAdminmap" class="element ajax clickable class">
+<h1>Model_MAdminmap<a href="../classes/Model_MAdminmap.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the site map for tha admin panel.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAdminmap.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MAutoComplete.html">MAutoComplete</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MAutoComplete" class="element ajax clickable class">
+<h1>Model_MAutoComplete<a href="../classes/Model_MAutoComplete.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the auto complete popup window
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MAutoComplete.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MBestSellingProducts.html">MBestSellingProducts</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MBestSellingProducts" class="element ajax clickable class">
+<h1>Model_MBestSellingProducts<a href="../classes/Model_MBestSellingProducts.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the best selling products
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MBestSellingProducts.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MCategoryBulkUpload.html">MCategoryBulkUpload</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MCategoryBulkUpload" class="element ajax clickable class">
+<h1>Model_MCategoryBulkUpload<a href="../classes/Model_MCategoryBulkUpload.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to upload the category in bulk
+from  the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MCategoryBulkUpload.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MCategoryDataExport.html">MCategoryDataExport</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MCategoryDataExport" class="element ajax clickable class">
+<h1>Model_MCategoryDataExport<a href="../classes/Model_MCategoryDataExport.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to export all the categories in XML/Excel/TSV/CSV format</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MCategoryDataExport.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MCategoryList.html">MCategoryList</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MCategoryList" class="element ajax clickable class">
+<h1>Model_MCategoryList<a href="../classes/Model_MCategoryList.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the list of categories available</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MCategoryList.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MCategoryManagement.html">MCategoryManagement</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MCategoryManagement" class="element ajax clickable class">
+<h1>Model_MCategoryManagement<a href="../classes/Model_MCategoryManagement.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions add a new category from the admin side</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MCategoryManagement.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MCategorySelection.html">MCategorySelection</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MCategorySelection" class="element ajax clickable class">
+<h1>Model_MCategorySelection<a href="../classes/Model_MCategorySelection.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the subcatgories for a selected category</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MCategorySelection.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MChart.html">MChart</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MChart" class="element ajax clickable class">
+<h1>Model_MChart<a href="../classes/Model_MChart.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to generate charts needed for BI Module
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MChart.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MContactUs.html">MContactUs</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MContactUs" class="element ajax clickable class">
+<h1>Model_MContactUs<a href="../classes/Model_MContactUs.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to update the contact us details
+from admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MContactUs.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MContentManagement.html">MContentManagement</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MContentManagement" class="element ajax clickable class">
+<h1>Model_MContentManagement<a href="../classes/Model_MContentManagement.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add a HTML Content Page
+from admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MContentManagement.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MCopyrights.html">MCopyrights</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MCopyrights" class="element ajax clickable class">
+<h1>Model_MCopyrights<a href="../classes/Model_MCopyrights.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display and update the copyrights information</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MCopyrights.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MCreatePage.html">MCreatePage</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MCreatePage" class="element ajax clickable class">
+<h1>Model_MCreatePage<a href="../classes/Model_MCreatePage.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to create a new HTML Page</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MCreatePage.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MCse.html">MCse</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MCse" class="element ajax clickable class">
+<h1>Model_MCse<a href="../classes/Model_MCse.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to update the comparison shopping engine</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MCse.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MCurrencySettings.html">MCurrencySettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MCurrencySettings" class="element ajax clickable class">
+<h1>Model_MCurrencySettings<a href="../classes/Model_MCurrencySettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add, edit and delete a tax rate for the list of currencies available</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MCurrencySettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MCustomHeader.html">MCustomHeader</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MCustomHeader" class="element ajax clickable class">
+<h1>Model_MCustomHeader<a href="../classes/Model_MCustomHeader.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to edit and update the custom header details
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MCustomHeader.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MError.html">MError</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MError" class="element ajax clickable class">
+<h1>Model_MError<a href="../classes/Model_MError.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display a error page</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MError.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MFaq.html">MFaq</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MFaq" class="element ajax clickable class">
+<h1>Model_MFaq<a href="../classes/Model_MFaq.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add, edit and delete the faqs
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MFaq.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MFooterSettings.html">MFooterSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MFooterSettings" class="element ajax clickable class">
+<h1>Model_MFooterSettings<a href="../classes/Model_MFooterSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add, edit and delete a new footer link</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MFooterSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MGoogleAdSense.html">MGoogleAdSense</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MGoogleAdSense" class="element ajax clickable class">
+<h1>Model_MGoogleAdSense<a href="../classes/Model_MGoogleAdSense.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to update the Google Adsense script
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MGoogleAdSense.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MGoogleAdWords.html">MGoogleAdWords</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MGoogleAdWords" class="element ajax clickable class">
+<h1>Model_MGoogleAdWords<a href="../classes/Model_MGoogleAdWords.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to update the Google AdWord Campaign
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MGoogleAdWords.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MGoogleAnalytics.html">MGoogleAnalytics</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MGoogleAnalytics" class="element ajax clickable class">
+<h1>Model_MGoogleAnalytics<a href="../classes/Model_MGoogleAnalytics.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to update the Google analytics code</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MGoogleAnalytics.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MGoogleBase.html">MGoogleBase</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MGoogleBase" class="element ajax clickable class">
+<h1>Model_MGoogleBase<a href="../classes/Model_MGoogleBase.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get the Google Base feed data
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MGoogleBase.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MHeaderSettings.html">MHeaderSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MHeaderSettings" class="element ajax clickable class">
+<h1>Model_MHeaderSettings<a href="../classes/Model_MHeaderSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the  header settings</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MHeaderSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MHomePageBanner.html">MHomePageBanner</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MHomePageBanner" class="element ajax clickable class">
+<h1>Model_MHomePageBanner<a href="../classes/Model_MHomePageBanner.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to mopdify the Home Page banner</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MHomePageBanner.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MKeywordSearch.html">MKeywordSearch</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MKeywordSearch" class="element ajax clickable class">
+<h1>Model_MKeywordSearch<a href="../classes/Model_MKeywordSearch.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the keyword search</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MKeywordSearch.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MLatestOrders.html">MLatestOrders</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MLatestOrders" class="element ajax clickable class">
+<h1>Model_MLatestOrders<a href="../classes/Model_MLatestOrders.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display status of the latest orders</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MLatestOrders.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MMailMessageSettings.html">MMailMessageSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MMailMessageSettings" class="element ajax clickable class">
+<h1>Model_MMailMessageSettings<a href="../classes/Model_MMailMessageSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to update the mail messages
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MMailMessageSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MManageProducts.html">MManageProducts</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MManageProducts" class="element ajax clickable class">
+<h1>Model_MManageProducts<a href="../classes/Model_MManageProducts.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add, edit and delete a new products</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MManageProducts.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MMostSearchedKeywords.html">MMostSearchedKeywords</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MMostSearchedKeywords" class="element ajax clickable class">
+<h1>Model_MMostSearchedKeywords<a href="../classes/Model_MMostSearchedKeywords.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the most searched keywords</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MMostSearchedKeywords.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MNarrowSearch.html">MNarrowSearch</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MNarrowSearch" class="element ajax clickable class">
+<h1>Model_MNarrowSearch<a href="../classes/Model_MNarrowSearch.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the search results</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MNarrowSearch.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MNewsManagement.html">MNewsManagement</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MNewsManagement" class="element ajax clickable class">
+<h1>Model_MNewsManagement<a href="../classes/Model_MNewsManagement.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the newa management</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MNewsManagement.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MNewsletterSettings.html">MNewsletterSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MNewsletterSettings" class="element ajax clickable class">
+<h1>Model_MNewsletterSettings<a href="../classes/Model_MNewsletterSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add and delete a news letter
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MNewsletterSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MOrderDataExport.html">MOrderDataExport</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MOrderDataExport" class="element ajax clickable class">
+<h1>Model_MOrderDataExport<a href="../classes/Model_MOrderDataExport.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to export the orders into Excel/XML/TAB/CSV format
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MOrderDataExport.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MOrderListDetailView.html">MOrderListDetailView</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MOrderListDetailView" class="element ajax clickable class">
+<h1>Model_MOrderListDetailView<a href="../classes/Model_MOrderListDetailView.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the order list view</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MOrderListDetailView.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MOrderManagement.html">MOrderManagement</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MOrderManagement" class="element ajax clickable class">
+<h1>Model_MOrderManagement<a href="../classes/Model_MOrderManagement.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the existing orders and to update the status</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MOrderManagement.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MOrderStatusManagement.html">MOrderStatusManagement</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MOrderStatusManagement" class="element ajax clickable class">
+<h1>Model_MOrderStatusManagement<a href="../classes/Model_MOrderStatusManagement.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to update the order status</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MOrderStatusManagement.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MPageManagement.html">MPageManagement</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MPageManagement" class="element ajax clickable class">
+<h1>Model_MPageManagement<a href="../classes/Model_MPageManagement.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the list of roles available for the subadmin</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MPageManagement.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MPayPal.html">MPayPal</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MPayPal" class="element ajax clickable class">
+<h1>Model_MPayPal<a href="../classes/Model_MPayPal.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the paypal payment gateway</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MPayPal.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MPolls.html">MPolls</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MPolls" class="element ajax clickable class">
+<h1>Model_MPolls<a href="../classes/Model_MPolls.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the polls.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MPolls.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MPrivacyPolicy.html">MPrivacyPolicy</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MPrivacyPolicy" class="element ajax clickable class">
+<h1>Model_MPrivacyPolicy<a href="../classes/Model_MPrivacyPolicy.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to update the Privacy Policy for the site</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MPrivacyPolicy.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MProductBulkUpload.html">MProductBulkUpload</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MProductBulkUpload" class="element ajax clickable class">
+<h1>Model_MProductBulkUpload<a href="../classes/Model_MProductBulkUpload.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the bulk uploader</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MProductBulkUpload.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MProductDataExport.html">MProductDataExport</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MProductDataExport" class="element ajax clickable class">
+<h1>Model_MProductDataExport<a href="../classes/Model_MProductDataExport.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to export the products available in Excel/CSV/Tab/XML format
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MProductDataExport.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MProductDetail.html">MProductDetail</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MProductDetail" class="element ajax clickable class">
+<h1>Model_MProductDetail<a href="../classes/Model_MProductDetail.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the product details
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MProductDetail.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MProductEntry.html">MProductEntry</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MProductEntry" class="element ajax clickable class">
+<h1>Model_MProductEntry<a href="../classes/Model_MProductEntry.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add new product</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MProductEntry.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MProductFeatures.html">MProductFeatures</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MProductFeatures" class="element ajax clickable class">
+<h1>Model_MProductFeatures<a href="../classes/Model_MProductFeatures.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add, edit and delete the product features
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MProductFeatures.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MProductInventoryManagement.html">MProductInventoryManagement</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MProductInventoryManagement" class="element ajax clickable class">
+<h1>Model_MProductInventoryManagement<a href="../classes/Model_MProductInventoryManagement.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to edit and delete inventory
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MProductInventoryManagement.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MProductMsrpManagement.html">MProductMsrpManagement</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MProductMsrpManagement" class="element ajax clickable class">
+<h1>Model_MProductMsrpManagement<a href="../classes/Model_MProductMsrpManagement.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add, edit and delete the MSRP details for a product
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MProductMsrpManagement.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MProductRegistration.html">MProductRegistration</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MProductRegistration" class="element ajax clickable class">
+<h1>Model_MProductRegistration<a href="../classes/Model_MProductRegistration.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the product registration</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MProductRegistration.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MPromotionalCodes.html">MPromotionalCodes</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MPromotionalCodes" class="element ajax clickable class">
+<h1>Model_MPromotionalCodes<a href="../classes/Model_MPromotionalCodes.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add a new coupon code
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MPromotionalCodes.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MSelectFeaturedItems.html">MSelectFeaturedItems</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MSelectFeaturedItems" class="element ajax clickable class">
+<h1>Model_MSelectFeaturedItems<a href="../classes/Model_MSelectFeaturedItems.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to update the featured products</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MSelectFeaturedItems.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MSelectSkin.html">MSelectSkin</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MSelectSkin" class="element ajax clickable class">
+<h1>Model_MSelectSkin<a href="../classes/Model_MSelectSkin.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to change the default skins settings</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MSelectSkin.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MShippingTracker.html">MShippingTracker</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MShippingTracker" class="element ajax clickable class">
+<h1>Model_MShippingTracker<a href="../classes/Model_MShippingTracker.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the list of shipment trackers available</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MShippingTracker.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MShowContents.html">MShowContents</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MShowContents" class="element ajax clickable class">
+<h1>Model_MShowContents<a href="../classes/Model_MShowContents.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add, edit and delete the HTML contents
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MShowContents.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MShowMainCategory.html">MShowMainCategory</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MShowMainCategory" class="element ajax clickable class">
+<h1>Model_MShowMainCategory<a href="../classes/Model_MShowMainCategory.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to edit and delete the available categories
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MShowMainCategory.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MShowSubCategory.html">MShowSubCategory</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MShowSubCategory" class="element ajax clickable class">
+<h1>Model_MShowSubCategory<a href="../classes/Model_MShowSubCategory.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to edit and delete the available sub categories
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MShowSubCategory.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MSiteLogo.html">MSiteLogo</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MSiteLogo" class="element ajax clickable class">
+<h1>Model_MSiteLogo<a href="../classes/Model_MSiteLogo.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to modify the site logo</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MSiteLogo.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MSiteSettings.html">MSiteSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MSiteSettings" class="element ajax clickable class">
+<h1>Model_MSiteSettings<a href="../classes/Model_MSiteSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to update the site moto</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MSiteSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MSiteStatistics.html">MSiteStatistics</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MSiteStatistics" class="element ajax clickable class">
+<h1>Model_MSiteStatistics<a href="../classes/Model_MSiteStatistics.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the site statistics</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MSiteStatistics.html" class="more">« More »</a>
+</div>
+<div id="Model_MSiteStatistics" class="element ajax clickable class">
+<h1>Model_MSiteStatistics<a href="../classes/Model_MSiteStatistics.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the site statistics
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MSiteStatistics.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MSkin.html">MSkin</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MSkin" class="element ajax clickable class">
+<h1>Model_MSkin<a href="../classes/Model_MSkin.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the list of skins available
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MSkin.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MSubAdminManagement.html">MSubAdminManagement</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MSubAdminManagement" class="element ajax clickable class">
+<h1>Model_MSubAdminManagement<a href="../classes/Model_MSubAdminManagement.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to  edit and delete the subadmin
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MSubAdminManagement.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MTaxSettings.html">MTaxSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MTaxSettings" class="element ajax clickable class">
+<h1>Model_MTaxSettings<a href="../classes/Model_MTaxSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add, edit and delete tax settings country wise
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MTaxSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MTermsCondition.html">MTermsCondition</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MTermsCondition" class="element ajax clickable class">
+<h1>Model_MTermsCondition<a href="../classes/Model_MTermsCondition.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add, edit and delete a new customer account
+at the admin side.</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MTermsCondition.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MTimeZone.html">MTimeZone</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MTimeZone" class="element ajax clickable class">
+<h1>Model_MTimeZone<a href="../classes/Model_MTimeZone.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to update the time zone settings</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MTimeZone.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MUserOrder.html">MUserOrder</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Model.MUserOrder.html">MUserOrder</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MUserOrder.Model.html">Model</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MUserOrder" class="element ajax clickable class">
+<h1>Model_MUserOrder<a href="../classes/Model_MUserOrder.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to create a new user order</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MUserOrder.html" class="more">« More »</a>
+</div>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Model.html">Model</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Model.MViewFeaturedItems.html">MViewFeaturedItems</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Model_MViewFeaturedItems" class="element ajax clickable class">
+<h1>Model_MViewFeaturedItems<a href="../classes/Model_MViewFeaturedItems.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to display the featured items</p>
+<div class="details collapse"></div>
+<a href="../classes/Model_MViewFeaturedItems.html" class="more">« More »</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
+            generated on 2013-03-16T16:38:35+05:30.<br></footer></div>
+</div>
+</body>
+</html>

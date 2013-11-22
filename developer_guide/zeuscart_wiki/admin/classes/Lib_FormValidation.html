@@ -1,0 +1,813 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>phpDocumentor » \Lib_FormValidation</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">phpDocumentor</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Core.html"><i class="icon-folder-open"></i> Core</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/Display.html"><i class="icon-folder-open"></i> Display</a></li>
+<li><a href="../packages/Lib.html"><i class="icon-folder-open"></i> Lib</a></li>
+<li><a href="../packages/Model.html"><i class="icon-folder-open"></i> Model</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods
+                    <ul>
+<li class="method public inherited"><a href="#method_Assign" title="Assign :: Stores Fieldnames, Values, Validationlist, Errormessages"><span class="description">Stores Fieldnames, Values, Validationlist, Errormessages</span><pre>Assign()</pre></a></li>
+<li class="method public inherited"><a href="#method_IsEmpty" title="IsEmpty :: Function to check the string length  is empty or not"><span class="description">Function to check the string length  is empty or not</span><pre>IsEmpty()</pre></a></li>
+<li class="method public inherited"><a href="#method_IsEqual" title="IsEqual :: Function to check the string is equal with required output  or not"><span class="description">Function to check the string is equal with required output  or not</span><pre>IsEqual()</pre></a></li>
+<li class="method public inherited"><a href="#method_IsInvalidDate" title="IsInvalidDate :: function to check the date is valid or not"><span class="description">function to check the date is valid or not</span><pre>IsInvalidDate()</pre></a></li>
+<li class="method public inherited"><a href="#method_IsInvalidEmail" title="IsInvalidEmail :: Function to check the email"><span class="description">Function to check the email</span><pre>IsInvalidEmail()</pre></a></li>
+<li class="method public inherited"><a href="#method_IsInvalidFile" title="IsInvalidFile :: Function to check the is invalidfile or not"><span class="description">Function to check the is invalidfile or not</span><pre>IsInvalidFile()</pre></a></li>
+<li class="method public inherited"><a href="#method_IsInvalidSelect" title="IsInvalidSelect :: Function to check the is invalid or not"><span class="description">Function to check the is invalid or not</span><pre>IsInvalidSelect()</pre></a></li>
+<li class="method public inherited"><a href="#method_IsMinimum" title="IsMinimum :: Function to check the string is minimum   or not"><span class="description">Function to check the string is minimum   or not</span><pre>IsMinimum()</pre></a></li>
+<li class="method public inherited"><a href="#method_IsNumeric" title="IsNumeric :: Function to check the string is numeric charactor  or not"><span class="description">Function to check the string is numeric charactor  or not</span><pre>IsNumeric()</pre></a></li>
+<li class="method public inherited"><a href="#method_IsNumericStart" title="IsNumericStart :: Function to check the string is numeric start  or not"><span class="description">Function to check the string is numeric start  or not</span><pre>IsNumericStart()</pre></a></li>
+<li class="method public inherited"><a href="#method_IsString" title="IsString :: Function to check the string"><span class="description">Function to check the string</span><pre>IsString()</pre></a></li>
+<li class="method public inherited"><a href="#method_IsThereSpecial" title="IsThereSpecial :: Function to check the string special charactor  or not"><span class="description">Function to check the string special charactor  or not</span><pre>IsThereSpecial()</pre></a></li>
+<li class="method public "><a href="#method_Lib_FormValidation" title="Lib_FormValidation :: Function checks and invokes the validation module"><span class="description">Function checks and invokes the validation module</span><pre>Lib_FormValidation()</pre></a></li>
+<li class="method public inherited"><a href="#method_Lib_Validation_Handler" title="Lib_Validation_Handler :: Funtion Lib_Validation_Handler"><span class="description">Funtion Lib_Validation_Handler</span><pre>Lib_Validation_Handler()</pre></a></li>
+<li class="method public inherited"><a href="#method_MultiAssign" title="MultiAssign :: Stores multi Fieldnames, Values, Validationlist, Errormessages"><span class="description">Stores multi Fieldnames, Values, Validationlist, Errormessages</span><pre>MultiAssign()</pre></a></li>
+<li class="method public inherited"><a href="#method_PerformValidation" title="PerformValidation :: Perform all assigned validations"><span class="description">Perform all assigned validations</span><pre>PerformValidation()</pre></a></li>
+<li class="method public "><a href="#method_validateAdminEmail" title="validateAdminEmail :: Function checks the whether the  admin email  supplied has null values or not"><span class="description">Function checks the whether the  admin email  supplied has null values or not</span><pre>validateAdminEmail()</pre></a></li>
+<li class="method public "><a href="#method_validateAttributes" title="validateAttributes :: Function checks the whether the attributes value  supplied has null values or not"><span class="description">Function checks the whether the attributes value  supplied has null values or not</span><pre>validateAttributes()</pre></a></li>
+<li class="method public "><a href="#method_validateCategory" title="validateCategory :: Function checks the whether the category value  supplied has null values or not"><span class="description">Function checks the whether the category value  supplied has null values or not</span><pre>validateCategory()</pre></a></li>
+<li class="method public "><a href="#method_validateCheckout" title="validateCheckout :: Function checks the check out process add to cart address and assign an error"><span class="description">Function checks the check out process add to cart address and assign an error</span><pre>validateCheckout()</pre></a></li>
+<li class="method public "><a href="#method_validateCurrency" title="validateCurrency :: Function checks the whether the  currency parameter  supplied has null values or not"><span class="description">Function checks the whether the  currency parameter  supplied has null values or not</span><pre>validateCurrency()</pre></a></li>
+<li class="method public "><a href="#method_validateEditCurrency" title="validateEditCurrency :: Function checks the whether the edit currency parameter  supplied has null values or not"><span class="description">Function checks the whether the edit currency parameter  supplied has null values or not</span><pre>validateEditCurrency()</pre></a></li>
+<li class="method public "><a href="#method_validateEmailAddress" title="validateEmailAddress :: Function checks the email"><span class="description">Function checks the email</span><pre>validateEmailAddress()</pre></a></li>
+<li class="method public "><a href="#method_validateEntry" title="validateEntry :: Function checks the whether the product entry parameter  supplied has null values or not"><span class="description">Function checks the whether the product entry parameter  supplied has null values or not</span><pre>validateEntry()</pre></a></li>
+<li class="method public "><a href="#method_validateFloat" title="validateFloat :: Function checks the float values"><span class="description">Function checks the float values</span><pre>validateFloat()</pre></a></li>
+<li class="method public "><a href="#method_validateRegionwisetaxEdit" title="validateRegionwisetaxEdit :: Function checks the whether the region wise edit tax parameter  supplied has null values or not"><span class="description">Function checks the whether the region wise edit tax parameter  supplied has null values or not</span><pre>validateRegionwisetaxEdit()</pre></a></li>
+<li class="method public "><a href="#method_validateRegionwisetaxEntry" title="validateRegionwisetaxEntry :: Function checks the whether the region wise tax parameter  supplied has null values or not"><span class="description">Function checks the whether the region wise tax parameter  supplied has null values or not</span><pre>validateRegionwisetaxEntry()</pre></a></li>
+<li class="method public "><a href="#method_validateSubAdminEmail" title="validateSubAdminEmail :: Function checks the whether the sub admin email  supplied has null values or not"><span class="description">Function checks the whether the sub admin email  supplied has null values or not</span><pre>validateSubAdminEmail()</pre></a></li>
+<li class="method public "><a href="#method_validateUpdateEntry" title="validateUpdateEntry :: Function checks the whether the update product entry parameter  supplied has null values or not"><span class="description">Function checks the whether the update product entry parameter  supplied has null values or not</span><pre>validateUpdateEntry()</pre></a></li>
+<li class="method public "><a href="#method_validateUserRegister" title="validateUserRegister :: Function checks the whether the registration process parameter supplied has null values or not"><span class="description">Function checks the whether the registration process parameter supplied has null values or not</span><pre>validateUserRegister()</pre></a></li>
+<li class="method public "><a href="#method_validateimages" title="validateimages :: Function checks the images"><span class="description">Function checks the images</span><pre>validateimages()</pre></a></li>
+<li class="method public "><a href="#method_validatelogin" title="validatelogin :: Function checks the whether the login process  parameter  supplied has null values or not"><span class="description">Function checks the whether the login process  parameter  supplied has null values or not</span><pre>validatelogin()</pre></a></li>
+</ul>
+</li>
+<li class="nav-header">
+<i class="icon-custom icon-property"></i> Properties
+                    <ul>
+<li class="property public inherited"><a href="#property_fileerror" title="$fileerror :: Stores the file error"><span class="description"></span><pre>$fileerror</pre></a></li>
+<li class="property public inherited"><a href="#property_mCheckArray" title="$mCheckArray :: Stores the output"><span class="description"></span><pre>$mCheckArray</pre></a></li>
+<li class="property public inherited"><a href="#property_mErrorValues" title="$mErrorValues :: Stores the error values"><span class="description"></span><pre>$mErrorValues</pre></a></li>
+<li class="property public inherited"><a href="#property_mErrors" title="$mErrors :: Stores the error"><span class="description"></span><pre>$mErrors</pre></a></li>
+<li class="property public inherited"><a href="#property_mFields" title="$mFields :: Stores the fields name"><span class="description"></span><pre>$mFields</pre></a></li>
+<li class="property public inherited"><a href="#property_mMessageArray" title="$mMessageArray :: Stores the  message array"><span class="description"></span><pre>$mMessageArray</pre></a></li>
+<li class="property public inherited"><a href="#property_mValidations" title="$mValidations :: Stores the validation array"><span class="description"></span><pre>$mValidations</pre></a></li>
+<li class="property public inherited"><a href="#property_mValueArray" title="$mValueArray :: Stores the  value array"><span class="description"></span><pre>$mValueArray</pre></a></li>
+<li class="property public inherited"><a href="#property_totalvalidation" title="$totalvalidation :: Assign total validation"><span class="description"></span><pre>$totalvalidation</pre></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="span8">
+<a id="\Lib_FormValidation"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/global.html">global</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/Lib_FormValidation.html">Lib_FormValidation</a>
+</li>
+</ul>
+<div class="element class">
+<p class="short_description">This class contains functions related  to validation</p>
+<div class="details">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>package</th>
+<td><a href="../packages/Lib.FormValidation.Lib.Validation.Handler.html">Lib_FormValidation</a></td>
+</tr>
+<tr>
+<th>subpackage</th>
+<td>Lib_Validation_Handler</td>
+</tr>
+<tr>
+<th>category</th>
+<td>Library</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">AjSquareInc Dev Team</a></td>
+</tr>
+<tr>
+<th>link</th>
+<td><a href="http://www.zeuscart.com">http://www.zeuscart.com</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright (c) 2008 - 2013, AjSquare, Inc.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>Version 4.0</td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a id="method_Assign"></a><div class="element clickable method public method_Assign" data-toggle="collapse" data-target=".method_Assign .collapse">
+<h2>Stores Fieldnames, Values, Validationlist, Errormessages</h2>
+<pre>Assign(string $field, string $value, string $check_for, string $message) </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::Assign()</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$field</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$value</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$check_for</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$message</h4>
+<code>string</code>
+</div>
+</div></div>
+</div>
+<a id="method_IsEmpty"></a><div class="element clickable method public method_IsEmpty" data-toggle="collapse" data-target=".method_IsEmpty .collapse">
+<h2>Function to check the string length  is empty or not</h2>
+<pre>IsEmpty(string $str) : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Methods::IsEmpty()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::IsEmpty()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$str</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_IsEqual"></a><div class="element clickable method public method_IsEqual" data-toggle="collapse" data-target=".method_IsEqual .collapse">
+<h2>Function to check the string is equal with required output  or not</h2>
+<pre>IsEqual(string $str, string $str1) : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Methods::IsEqual()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::IsEqual()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$str</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$str1</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_IsInvalidDate"></a><div class="element clickable method public method_IsInvalidDate" data-toggle="collapse" data-target=".method_IsInvalidDate .collapse">
+<h2>function to check the date is valid or not</h2>
+<pre>IsInvalidDate(array $dat) : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Methods::IsInvalidDate()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::IsInvalidDate()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$dat</h4>
+<code>array</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_IsInvalidEmail"></a><div class="element clickable method public method_IsInvalidEmail" data-toggle="collapse" data-target=".method_IsInvalidEmail .collapse">
+<h2>Function to check the email</h2>
+<pre>IsInvalidEmail(string $email) : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Methods::IsInvalidEmail()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::IsInvalidEmail()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$email</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_IsInvalidFile"></a><div class="element clickable method public method_IsInvalidFile" data-toggle="collapse" data-target=".method_IsInvalidFile .collapse">
+<h2>Function to check the is invalidfile or not</h2>
+<pre>IsInvalidFile(string $field, string $ext, integer $size) : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Methods::IsInvalidFile()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::IsInvalidFile()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$field</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$ext</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$size</h4>
+<code>integer</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_IsInvalidSelect"></a><div class="element clickable method public method_IsInvalidSelect" data-toggle="collapse" data-target=".method_IsInvalidSelect .collapse">
+<h2>Function to check the is invalid or not</h2>
+<pre>IsInvalidSelect(string $str, string $with) : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Methods::IsInvalidSelect()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::IsInvalidSelect()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$str</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$with</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_IsMinimum"></a><div class="element clickable method public method_IsMinimum" data-toggle="collapse" data-target=".method_IsMinimum .collapse">
+<h2>Function to check the string is minimum   or not</h2>
+<pre>IsMinimum(string $str, integer $con) : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Methods::IsMinimum()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::IsMinimum()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$str</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$con</h4>
+<code>integer</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_IsNumeric"></a><div class="element clickable method public method_IsNumeric" data-toggle="collapse" data-target=".method_IsNumeric .collapse">
+<h2>Function to check the string is numeric charactor  or not</h2>
+<pre>IsNumeric(string $str) : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Methods::IsNumeric()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::IsNumeric()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$str</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_IsNumericStart"></a><div class="element clickable method public method_IsNumericStart" data-toggle="collapse" data-target=".method_IsNumericStart .collapse">
+<h2>Function to check the string is numeric start  or not</h2>
+<pre>IsNumericStart(string $str) : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Methods::IsNumericStart()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::IsNumericStart()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$str</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_IsString"></a><div class="element clickable method public method_IsString" data-toggle="collapse" data-target=".method_IsString .collapse">
+<h2>Function to check the string</h2>
+<pre>IsString(string $str) : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Methods::IsString()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::IsString()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$str</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_IsThereSpecial"></a><div class="element clickable method public method_IsThereSpecial" data-toggle="collapse" data-target=".method_IsThereSpecial .collapse">
+<h2>Function to check the string special charactor  or not</h2>
+<pre>IsThereSpecial(string $str, string $exp) : bool</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Methods::IsThereSpecial()</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::IsThereSpecial()</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$str</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$exp</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_Lib_FormValidation"></a><div class="element clickable method public method_Lib_FormValidation" data-toggle="collapse" data-target=".method_Lib_FormValidation .collapse">
+<h2>Function checks and invokes the validation module</h2>
+<pre>Lib_FormValidation(string $form) : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$form</h4>
+<code>string</code>
+</div>
+</div></div>
+</div>
+<a id="method_Lib_Validation_Handler"></a><div class="element clickable method public method_Lib_Validation_Handler" data-toggle="collapse" data-target=".method_Lib_Validation_Handler .collapse">
+<h2>Funtion Lib_Validation_Handler</h2>
+<pre>Lib_Validation_Handler() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::Lib_Validation_Handler()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_MultiAssign"></a><div class="element clickable method public method_MultiAssign" data-toggle="collapse" data-target=".method_MultiAssign .collapse">
+<h2>Stores multi Fieldnames, Values, Validationlist, Errormessages</h2>
+<pre>MultiAssign(string $field, string $value, string $check_for, string $message) </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::MultiAssign()</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$field</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$value</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$check_for</h4>
+<code>string</code>
+</div>
+<div class="subelement argument">
+<h4>$message</h4>
+<code>string</code>
+</div>
+</div></div>
+</div>
+<a id="method_PerformValidation"></a><div class="element clickable method public method_PerformValidation" data-toggle="collapse" data-target=".method_PerformValidation .collapse">
+<h2>Perform all assigned validations</h2>
+<pre>PerformValidation(string $location) </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::PerformValidation()</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$location</h4>
+<code>string</code>
+</div>
+</div></div>
+</div>
+<a id="method_validateAdminEmail"></a><div class="element clickable method public method_validateAdminEmail" data-toggle="collapse" data-target=".method_validateAdminEmail .collapse">
+<h2>Function checks the whether the  admin email  supplied has null values or not</h2>
+<pre>validateAdminEmail() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_validateAttributes"></a><div class="element clickable method public method_validateAttributes" data-toggle="collapse" data-target=".method_validateAttributes .collapse">
+<h2>Function checks the whether the attributes value  supplied has null values or not</h2>
+<pre>validateAttributes() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_validateCategory"></a><div class="element clickable method public method_validateCategory" data-toggle="collapse" data-target=".method_validateCategory .collapse">
+<h2>Function checks the whether the category value  supplied has null values or not</h2>
+<pre>validateCategory() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_validateCheckout"></a><div class="element clickable method public method_validateCheckout" data-toggle="collapse" data-target=".method_validateCheckout .collapse">
+<h2>Function checks the check out process add to cart address and assign an error</h2>
+<pre>validateCheckout() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_validateCurrency"></a><div class="element clickable method public method_validateCurrency" data-toggle="collapse" data-target=".method_validateCurrency .collapse">
+<h2>Function checks the whether the  currency parameter  supplied has null values or not</h2>
+<pre>validateCurrency() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_validateEditCurrency"></a><div class="element clickable method public method_validateEditCurrency" data-toggle="collapse" data-target=".method_validateEditCurrency .collapse">
+<h2>Function checks the whether the edit currency parameter  supplied has null values or not</h2>
+<pre>validateEditCurrency() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_validateEmailAddress"></a><div class="element clickable method public method_validateEmailAddress" data-toggle="collapse" data-target=".method_validateEmailAddress .collapse">
+<h2>Function checks the email</h2>
+<pre>validateEmailAddress(string $email) : bool</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$email</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_validateEntry"></a><div class="element clickable method public method_validateEntry" data-toggle="collapse" data-target=".method_validateEntry .collapse">
+<h2>Function checks the whether the product entry parameter  supplied has null values or not</h2>
+<pre>validateEntry() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_validateFloat"></a><div class="element clickable method public method_validateFloat" data-toggle="collapse" data-target=".method_validateFloat .collapse">
+<h2>Function checks the float values</h2>
+<pre>validateFloat(mixed $number) : bool</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$number</h4>
+<code>mixed</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_validateRegionwisetaxEdit"></a><div class="element clickable method public method_validateRegionwisetaxEdit" data-toggle="collapse" data-target=".method_validateRegionwisetaxEdit .collapse">
+<h2>Function checks the whether the region wise edit tax parameter  supplied has null values or not</h2>
+<pre>validateRegionwisetaxEdit() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_validateRegionwisetaxEntry"></a><div class="element clickable method public method_validateRegionwisetaxEntry" data-toggle="collapse" data-target=".method_validateRegionwisetaxEntry .collapse">
+<h2>Function checks the whether the region wise tax parameter  supplied has null values or not</h2>
+<pre>validateRegionwisetaxEntry() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_validateSubAdminEmail"></a><div class="element clickable method public method_validateSubAdminEmail" data-toggle="collapse" data-target=".method_validateSubAdminEmail .collapse">
+<h2>Function checks the whether the sub admin email  supplied has null values or not</h2>
+<pre>validateSubAdminEmail() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_validateUpdateEntry"></a><div class="element clickable method public method_validateUpdateEntry" data-toggle="collapse" data-target=".method_validateUpdateEntry .collapse">
+<h2>Function checks the whether the update product entry parameter  supplied has null values or not</h2>
+<pre>validateUpdateEntry() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_validateUserRegister"></a><div class="element clickable method public method_validateUserRegister" data-toggle="collapse" data-target=".method_validateUserRegister .collapse">
+<h2>Function checks the whether the registration process parameter supplied has null values or not</h2>
+<pre>validateUserRegister() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_validateimages"></a><div class="element clickable method public method_validateimages" data-toggle="collapse" data-target=".method_validateimages .collapse">
+<h2>Function checks the images</h2>
+<pre>validateimages(mixed $val) : bool</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$val</h4>
+<code>mixed</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a id="method_validatelogin"></a><div class="element clickable method public method_validatelogin" data-toggle="collapse" data-target=".method_validatelogin .collapse">
+<h2>Function checks the whether the login process  parameter  supplied has null values or not</h2>
+<pre>validatelogin() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<h3>
+<i class="icon-custom icon-property"></i> Properties</h3>
+<a id="property_fileerror"> </a><div class="element clickable property public property_fileerror" data-toggle="collapse" data-target=".property_fileerror .collapse">
+<h2></h2>
+<pre>$fileerror : array</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Methods::$$fileerror</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::$$fileerror</td>
+</tr>
+</table>
+</div></div>
+</div>
+<a id="property_mCheckArray"> </a><div class="element clickable property public property_mCheckArray" data-toggle="collapse" data-target=".property_mCheckArray .collapse">
+<h2></h2>
+<pre>$mCheckArray : array</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::$$mCheckArray</td>
+</tr></table>
+</div></div>
+</div>
+<a id="property_mErrorValues"> </a><div class="element clickable property public property_mErrorValues" data-toggle="collapse" data-target=".property_mErrorValues .collapse">
+<h2></h2>
+<pre>$mErrorValues : array</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::$$mErrorValues</td>
+</tr></table>
+</div></div>
+</div>
+<a id="property_mErrors"> </a><div class="element clickable property public property_mErrors" data-toggle="collapse" data-target=".property_mErrors .collapse">
+<h2></h2>
+<pre>$mErrors : array</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::$$mErrors</td>
+</tr></table>
+</div></div>
+</div>
+<a id="property_mFields"> </a><div class="element clickable property public property_mFields" data-toggle="collapse" data-target=".property_mFields .collapse">
+<h2></h2>
+<pre>$mFields : array</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::$$mFields</td>
+</tr></table>
+</div></div>
+</div>
+<a id="property_mMessageArray"> </a><div class="element clickable property public property_mMessageArray" data-toggle="collapse" data-target=".property_mMessageArray .collapse">
+<h2></h2>
+<pre>$mMessageArray : array</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::$$mMessageArray</td>
+</tr></table>
+</div></div>
+</div>
+<a id="property_mValidations"> </a><div class="element clickable property public property_mValidations" data-toggle="collapse" data-target=".property_mValidations .collapse">
+<h2></h2>
+<pre>$mValidations : array</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::$$mValidations</td>
+</tr></table>
+</div></div>
+</div>
+<a id="property_mValueArray"> </a><div class="element clickable property public property_mValueArray" data-toggle="collapse" data-target=".property_mValueArray .collapse">
+<h2></h2>
+<pre>$mValueArray : array</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::$$mValueArray</td>
+</tr></table>
+</div></div>
+</div>
+<a id="property_totalvalidation"> </a><div class="element clickable property public property_totalvalidation" data-toggle="collapse" data-target=".property_totalvalidation .collapse">
+<h2></h2>
+<pre>$totalvalidation : integer</pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Methods::$$totalvalidation</td>
+</tr>
+<tr>
+<th>inherited_from</th>
+<td>\Lib_Validation_Handler::$$totalvalidation</td>
+</tr>
+</table>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
+            generated on 2013-03-16T16:38:38+05:30.<br></footer></div>
+</div>
+</body>
+</html>

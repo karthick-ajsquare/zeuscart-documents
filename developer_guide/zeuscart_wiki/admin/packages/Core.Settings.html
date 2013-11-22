@@ -1,0 +1,690 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>phpDocumentor » Core\Settings</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">phpDocumentor</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Core.html"><i class="icon-folder-open"></i> Core</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/Display.html"><i class="icon-folder-open"></i> Display</a></li>
+<li><a href="../packages/Lib.html"><i class="icon-folder-open"></i> Lib</a></li>
+<li><a href="../packages/Model.html"><i class="icon-folder-open"></i> Model</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-map-marker"></i> Packages</li>
+<li>
+<span class="empty-package"><i class="icon-folder-close"></i>Settings</span><ul class="nav nav-list nav-packages">
+<li>
+<a href="../packages/Core.Settings.CAddAttributeValues.html" title="CAddAttributeValues"><i class="icon-folder-open"></i>CAddAttributeValues</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CAddAttributes.html" title="CAddAttributes"><i class="icon-folder-open"></i>CAddAttributes</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CAddCrossProducts.html" title="CAddCrossProducts"><i class="icon-folder-open"></i>CAddCrossProducts</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CAdminEmailSettings.html" title="CAdminEmailSettings"><i class="icon-folder-open"></i>CAdminEmailSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CCategoryManagement.html" title="CCategoryManagement"><i class="icon-folder-open"></i>CCategoryManagement</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CContentManagement.html" title="CContentManagement"><i class="icon-folder-open"></i>CContentManagement</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CCurrencySettings.html" title="CCurrencySettings"><i class="icon-folder-open"></i>CCurrencySettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CFooterSettings.html" title="CFooterSettings"><i class="icon-folder-open"></i>CFooterSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CGoogleAdSense.html" title="CGoogleAdSense"><i class="icon-folder-open"></i>CGoogleAdSense</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CGoogleAdWords.html" title="CGoogleAdWords"><i class="icon-folder-open"></i>CGoogleAdWords</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CGoogleAnalytics.html" title="CGoogleAnalytics"><i class="icon-folder-open"></i>CGoogleAnalytics</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CHomePageBanner.html" title="CHomePageBanner"><i class="icon-folder-open"></i>CHomePageBanner</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CMailMessageSettings.html" title="CMailMessageSettings"><i class="icon-folder-open"></i>CMailMessageSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CManageProducts.html" title="CManageProducts"><i class="icon-folder-open"></i>CManageProducts</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CNewsSettings.html" title="CNewsSettings"><i class="icon-folder-open"></i>CNewsSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CNewsletterSettings.html" title="CNewsletterSettings"><i class="icon-folder-open"></i>CNewsletterSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CSelectFeaturedItems.html" title="CSelectFeaturedItems"><i class="icon-folder-open"></i>CSelectFeaturedItems</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CSelectSkin.html" title="CSelectSkin"><i class="icon-folder-open"></i>CSelectSkin</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CShowContents.html" title="CShowContents"><i class="icon-folder-open"></i>CShowContents</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CSiteLogo.html" title="CSiteLogo"><i class="icon-folder-open"></i>CSiteLogo</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CSiteSettings.html" title="CSiteSettings"><i class="icon-folder-open"></i>CSiteSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CSkin.html" title="CSkin"><i class="icon-folder-open"></i>CSkin</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CTaxSettings.html" title="CTaxSettings"><i class="icon-folder-open"></i>CTaxSettings</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CTimeZone.html" title="CTimeZone"><i class="icon-folder-open"></i>CTimeZone</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CViewFeaturedItems.html" title="CViewFeaturedItems"><i class="icon-folder-open"></i>CViewFeaturedItems</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+<li>
+<a href="../packages/Core.Settings.CreatePage.html" title="CreatePage"><i class="icon-folder-open"></i>CreatePage</a><ul class="nav nav-list nav-packages"></ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="span8 package-contents">
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CAddAttributeValues.html">CAddAttributeValues</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CAddAttributeValues" class="element ajax clickable class">
+<h1>Core_Settings_CAddAttributeValues<a href="../classes/Core_Settings_CAddAttributeValues.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to show and update the attribute values</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CAddAttributeValues.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CAddAttributes.html">CAddAttributes</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CAddAttributes" class="element ajax clickable class">
+<h1>Core_Settings_CAddAttributes<a href="../classes/Core_Settings_CAddAttributes.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to edit and delete attributes from the database.</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CAddAttributes.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CAddCrossProducts.html">CAddCrossProducts</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CAddCrossProducts" class="element ajax clickable class">
+<h1>Core_Settings_CAddCrossProducts<a href="../classes/Core_Settings_CAddCrossProducts.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to show and update products in a particular category</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CAddCrossProducts.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CAdminEmailSettings.html">CAdminEmailSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CAdminEmailSettings" class="element ajax clickable class">
+<h1>Core_Settings_CAdminEmailSettings<a href="../classes/Core_Settings_CAdminEmailSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to show and update the site email settings into the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CAdminEmailSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CCategoryManagement.html">CCategoryManagement</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CCategoryManagement" class="element ajax clickable class">
+<h1>Core_Settings_CCategoryManagement<a href="../classes/Core_Settings_CCategoryManagement.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to show the HTML Content Preview</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CCategoryManagement.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CContentManagement.html">CContentManagement</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CContentManagement" class="element ajax clickable class">
+<h1>Core_Settings_CContentManagement<a href="../classes/Core_Settings_CContentManagement.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add a HTML Content into the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CContentManagement.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CCurrencySettings.html">CCurrencySettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CCurrencySettings" class="element ajax clickable class">
+<h1>Core_Settings_CCurrencySettings<a href="../classes/Core_Settings_CCurrencySettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add, edit and delete the existing currency settings</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CCurrencySettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CFooterSettings.html">CFooterSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CFooterSettings" class="element ajax clickable class">
+<h1>Core_Settings_CFooterSettings<a href="../classes/Core_Settings_CFooterSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add, edit and delete the footer contents into the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CFooterSettings.html" class="more">« More »</a>
+</div>
+<div id="Core_Settings_CFooterSettings" class="element ajax clickable class">
+<h1>Core_Settings_CFooterSettings<a href="../classes/Core_Settings_CFooterSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get and add a new header link into the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CFooterSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CGoogleAdSense.html">CGoogleAdSense</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CGoogleAdSense" class="element ajax clickable class">
+<h1>Core_Settings_CGoogleAdSense<a href="../classes/Core_Settings_CGoogleAdSense.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to edit and update the google ad sense code from the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CGoogleAdSense.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CGoogleAdWords.html">CGoogleAdWords</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CGoogleAdWords" class="element ajax clickable class">
+<h1>Core_Settings_CGoogleAdWords<a href="../classes/Core_Settings_CGoogleAdWords.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to edit and update the Google Adwords script</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CGoogleAdWords.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CGoogleAnalytics.html">CGoogleAnalytics</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CGoogleAnalytics" class="element ajax clickable class">
+<h1>Core_Settings_CGoogleAnalytics<a href="../classes/Core_Settings_CGoogleAnalytics.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to gets and updates the Google Analytics code from the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CGoogleAnalytics.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CHomePageBanner.html">CHomePageBanner</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CHomePageBanner" class="element ajax clickable class">
+<h1>Core_Settings_CHomePageBanner<a href="../classes/Core_Settings_CHomePageBanner.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get and update the home page banners from the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CHomePageBanner.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CMailMessageSettings.html">CMailMessageSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CMailMessageSettings" class="element ajax clickable class">
+<h1>Core_Settings_CMailMessageSettings<a href="../classes/Core_Settings_CMailMessageSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get and update the mail message settings from the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CMailMessageSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CManageProducts.html">CManageProducts</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CManageProducts" class="element ajax clickable class">
+<h1>Core_Settings_CManageProducts<a href="../classes/Core_Settings_CManageProducts.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to show all product details and to display the search results.</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CManageProducts.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CNewsSettings.html">CNewsSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CNewsSettings" class="element ajax clickable class">
+<h1>Core_Settings_CNewsSettings<a href="../classes/Core_Settings_CNewsSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to add, edit and delete the existing news details from the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CNewsSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CNewsletterSettings.html">CNewsletterSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CNewsletterSettings" class="element ajax clickable class">
+<h1>Core_Settings_CNewsletterSettings<a href="../classes/Core_Settings_CNewsletterSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get the details for the news letter settings</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CNewsletterSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CSelectFeaturedItems.html">CSelectFeaturedItems</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CSelectFeaturedItems" class="element ajax clickable class">
+<h1>Core_Settings_CSelectFeaturedItems<a href="../classes/Core_Settings_CSelectFeaturedItems.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get the featured items from the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CSelectFeaturedItems.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CSelectSkin.html">CSelectSkin</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CSelectSkin" class="element ajax clickable class">
+<h1>Core_Settings_CSelectSkin<a href="../classes/Core_Settings_CSelectSkin.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get the details of the skins from the table</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CSelectSkin.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CShowContents.html">CShowContents</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CShowContents" class="element ajax clickable class">
+<h1>Core_Settings_CShowContents<a href="../classes/Core_Settings_CShowContents.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get the content details from the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CShowContents.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CSiteLogo.html">CSiteLogo</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CSiteLogo" class="element ajax clickable class">
+<h1>Core_Settings_CSiteLogo<a href="../classes/Core_Settings_CSiteLogo.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get and update the site logo into the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CSiteLogo.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CSiteSettings.html">CSiteSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CSiteSettings" class="element ajax clickable class">
+<h1>Core_Settings_CSiteSettings<a href="../classes/Core_Settings_CSiteSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get and update the site moto details from the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CSiteSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CSkin.html">CSkin</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CSkin" class="element ajax clickable class">
+<h1>Core_Settings_CSkin<a href="../classes/Core_Settings_CSkin.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get the skin details from the table</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CSkin.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CTaxSettings.html">CTaxSettings</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CTaxSettings" class="element ajax clickable class">
+<h1>Core_Settings_CTaxSettings<a href="../classes/Core_Settings_CTaxSettings.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get and update the tax settings from the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CTaxSettings.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CTimeZone.html">CTimeZone</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CTimeZone" class="element ajax clickable class">
+<h1>Core_Settings_CTimeZone<a href="../classes/Core_Settings_CTimeZone.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get the timezone details and to update the time zone details</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CTimeZone.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CViewFeaturedItems.html">CViewFeaturedItems</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CViewFeaturedItems" class="element ajax clickable class">
+<h1>Core_Settings_CViewFeaturedItems<a href="../classes/Core_Settings_CViewFeaturedItems.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get the list of featured products from the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CViewFeaturedItems.html" class="more">« More »</a>
+</div>
+</div>
+<ul class="breadcrumb"><li>
+<a href="../index.html"><i class="icon-folder-open"></i></a><span class="divider">\</span><li><a href="../packages/Core.html">Core</a></li>
+<li>
+<span class="divider">\</span><a href="../packages/Core.Settings.html">Settings</a>
+</li>
+<li class="active">
+<span class="divider">\</span><a href="../packages/Core.Settings.CreatePage.html">CreatePage</a>
+</li>
+</li></ul>
+<div class="package-indent">
+<h3>
+<i class="icon-custom icon-class"></i> Classes and interfaces</h3>
+<div id="Core_Settings_CreatePage" class="element ajax clickable class">
+<h1>Core_Settings_CreatePage<a href="../classes/Core_Settings_CreatePage.html">¶</a>
+</h1>
+<p class="short_description">This class contains functions to get the style details from the database</p>
+<div class="details collapse"></div>
+<a href="../classes/Core_Settings_CreatePage.html" class="more">« More »</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
+            generated on 2013-03-16T16:38:30+05:30.<br></footer></div>
+</div>
+</body>
+</html>

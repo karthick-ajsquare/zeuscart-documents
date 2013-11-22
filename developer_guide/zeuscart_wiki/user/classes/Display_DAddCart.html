@@ -1,0 +1,394 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>phpDocumentor » \Display_DAddCart</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">phpDocumentor</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Core.html"><i class="icon-folder-open"></i> Core</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/Display.html"><i class="icon-folder-open"></i> Display</a></li>
+<li><a href="../packages/Lib.html"><i class="icon-folder-open"></i> Lib</a></li>
+<li><a href="../packages/Model.html"><i class="icon-folder-open"></i> Model</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">0</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list"><li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods
+                    <ul>
+<li class="method public "><a href="#method_cartSnapShot" title="cartSnapShot :: This function is used to show the cart snap shot"><span class="description">This function is used to show the cart snap shot</span><pre>cartSnapShot()</pre></a></li>
+<li class="method public "><a href="#method_cartSnapShotElse" title="cartSnapShotElse :: This function is used to show the cart snap shot if no item found"><span class="description">This function is used to show the cart snap shot if no item found</span><pre>cartSnapShotElse()</pre></a></li>
+<li class="method public "><a href="#method_displayPaymentGateways" title="displayPaymentGateways :: This function is used to show the order confirmation."><span class="description">This function is used to show the order confirmation.</span><pre>displayPaymentGateways()</pre></a></li>
+<li class="method public "><a href="#method_getPaymentGatewayForms" title="getPaymentGatewayForms :: This function is used to show the order confirmation."><span class="description">This function is used to show the order confirmation.</span><pre>getPaymentGatewayForms()</pre></a></li>
+<li class="method public "><a href="#method_loadCountryDropDown" title="loadCountryDropDown :: This function is used to show the country drop down"><span class="description">This function is used to show the country drop down</span><pre>loadCountryDropDown()</pre></a></li>
+<li class="method public "><a href="#method_showBillingDetails" title="showBillingDetails :: This function is used to show the Billing address."><span class="description">This function is used to show the Billing address.</span><pre>showBillingDetails()</pre></a></li>
+<li class="method public "><a href="#method_showCart" title="showCart :: This function is used to show the cart item."><span class="description">This function is used to show the cart item.</span><pre>showCart()</pre></a></li>
+<li class="method public "><a href="#method_showOrderConfirmation" title="showOrderConfirmation :: This function is used to show the order confirmation."><span class="description">This function is used to show the order confirmation.</span><pre>showOrderConfirmation()</pre></a></li>
+<li class="method public "><a href="#method_showPaymentPageFor2Checkout" title="showPaymentPageFor2Checkout :: This function is used to showPaymentPageFor2Checkout"><span class="description">This function is used to showPaymentPageFor2Checkout</span><pre>showPaymentPageFor2Checkout()</pre></a></li>
+<li class="method public "><a href="#method_showPaymentPageForAuthorizenet" title="showPaymentPageForAuthorizenet :: This function is used to show the PaymentPageForAuthorizenet"><span class="description">This function is used to show the PaymentPageForAuthorizenet</span><pre>showPaymentPageForAuthorizenet()</pre></a></li>
+<li class="method public "><a href="#method_showPaymentPageForBluepay" title="showPaymentPageForBluepay :: This function is used to showPaymentPageForBluepay"><span class="description">This function is used to showPaymentPageForBluepay</span><pre>showPaymentPageForBluepay()</pre></a></li>
+<li class="method public "><a href="#method_showPaymentPageForWorldPay" title="showPaymentPageForWorldPay :: This function is used to showPaymentPageForWorldPay"><span class="description">This function is used to showPaymentPageForWorldPay</span><pre>showPaymentPageForWorldPay()</pre></a></li>
+<li class="method public "><a href="#method_showQuickRegistration" title="showQuickRegistration :: This function is used to show the quick registration"><span class="description">This function is used to show the quick registration</span><pre>showQuickRegistration()</pre></a></li>
+<li class="method public "><a href="#method_showShippingDetails" title="showShippingDetails :: This function is used to show the shipping address."><span class="description">This function is used to show the shipping address.</span><pre>showShippingDetails()</pre></a></li>
+<li class="method public "><a href="#method_showShippingMethod" title="showShippingMethod :: This function is used to show the shipping method."><span class="description">This function is used to show the shipping method.</span><pre>showShippingMethod()</pre></a></li>
+</ul>
+</li></ul>
+</div>
+<div class="span8">
+<a id="\Display_DAddCart"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/global.html">global</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/Display_DAddCart.html">Display_DAddCart</a>
+</li>
+</ul>
+<div class="element class">
+<p class="short_description">Add to cart  related  class</p>
+<div class="details">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>package</th>
+<td><a href="../packages/Display.DAddCart.html">Display_DAddCart</a></td>
+</tr>
+<tr>
+<th>category</th>
+<td>Display</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="">AJ Square Inc Dev Team</a></td>
+</tr>
+<tr>
+<th>link</th>
+<td><a href="http://www.zeuscart.com">http://www.zeuscart.com</a></td>
+</tr>
+<tr>
+<th>copyright</th>
+<td>Copyright (c) 2008 - 2013, AJ Square, Inc.</td>
+</tr>
+<tr>
+<th>version</th>
+<td>Version 4.0</td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a id="method_cartSnapShot"></a><div class="element clickable method public method_cartSnapShot" data-toggle="collapse" data-target=".method_cartSnapShot .collapse">
+<h2>This function is used to show the cart snap shot</h2>
+<pre>cartSnapShot(int $grandtotal, int $cnt) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$grandtotal</h4>
+<code>int</code><p>total amount</p></div>
+<div class="subelement argument">
+<h4>$cnt</h4>
+<code>int</code><p>count of item</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_cartSnapShotElse"></a><div class="element clickable method public method_cartSnapShotElse" data-toggle="collapse" data-target=".method_cartSnapShotElse .collapse">
+<h2>This function is used to show the cart snap shot if no item found</h2>
+<pre>cartSnapShotElse() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_displayPaymentGateways"></a><div class="element clickable method public method_displayPaymentGateways" data-toggle="collapse" data-target=".method_displayPaymentGateways .collapse">
+<h2>This function is used to show the order confirmation.</h2>
+<pre>displayPaymentGateways(array $onlinearr, array $offlinearr, string $domain) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$onlinearr</h4>
+<code>array</code>
+</div>
+<div class="subelement argument">
+<h4>$offlinearr</h4>
+<code>array</code>
+</div>
+<div class="subelement argument">
+<h4>$domain</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_getPaymentGatewayForms"></a><div class="element clickable method public method_getPaymentGatewayForms" data-toggle="collapse" data-target=".method_getPaymentGatewayForms .collapse">
+<h2>This function is used to show the order confirmation.</h2>
+<pre>getPaymentGatewayForms(array $arr, string $domain) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>array</code><p>array of records</p></div>
+<div class="subelement argument">
+<h4>$domain</h4>
+<code>string</code><p>domain name</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_loadCountryDropDown"></a><div class="element clickable method public method_loadCountryDropDown" data-toggle="collapse" data-target=".method_loadCountryDropDown .collapse">
+<h2>This function is used to show the country drop down</h2>
+<pre>loadCountryDropDown(array $result, string $name, string $selected) : \HTML</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$result</h4>
+<code>array</code><p>array of country</p></div>
+<div class="subelement argument">
+<h4>$name</h4>
+<code>string</code><p>name of the select box</p></div>
+<div class="subelement argument">
+<h4>$selected</h4>
+<code>string</code><p>selected country code</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>\HTML</code>data</div>
+</div></div>
+</div>
+<a id="method_showBillingDetails"></a><div class="element clickable method public method_showBillingDetails" data-toggle="collapse" data-target=".method_showBillingDetails .collapse">
+<h2>This function is used to show the Billing address.</h2>
+<pre>showBillingDetails(array $records, array $result, array $Err, integer $billing_addess_id) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$records</h4>
+<code>array</code><p>array of address</p></div>
+<div class="subelement argument">
+<h4>$result</h4>
+<code>array</code><p>array of country</p></div>
+<div class="subelement argument">
+<h4>$Err</h4>
+<code>array</code><p>contains both error messages and values</p></div>
+<div class="subelement argument">
+<h4>$billing_addess_id</h4>
+<code>integer</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showCart"></a><div class="element clickable method public method_showCart" data-toggle="collapse" data-target=".method_showCart .collapse">
+<h2>This function is used to show the cart item.</h2>
+<pre>showCart(array $arr, array $result) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>array</code><p>array of items</p></div>
+<div class="subelement argument">
+<h4>$result</h4>
+<code>array</code><p>array of country</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showOrderConfirmation"></a><div class="element clickable method public method_showOrderConfirmation" data-toggle="collapse" data-target=".method_showOrderConfirmation .collapse">
+<h2>This function is used to show the order confirmation.</h2>
+<pre>showOrderConfirmation(array $arr, array $result, array $taxarray, string $message) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>array</code><p>array of items</p></div>
+<div class="subelement argument">
+<h4>$result</h4>
+<code>array</code><p>array of country</p></div>
+<div class="subelement argument">
+<h4>$taxarray</h4>
+<code>array</code><p>array of tax</p></div>
+<div class="subelement argument">
+<h4>$message</h4>
+<code>string</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showPaymentPageFor2Checkout"></a><div class="element clickable method public method_showPaymentPageFor2Checkout" data-toggle="collapse" data-target=".method_showPaymentPageFor2Checkout .collapse">
+<h2>This function is used to showPaymentPageFor2Checkout</h2>
+<pre>showPaymentPageFor2Checkout($arr) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4><p>array</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showPaymentPageForAuthorizenet"></a><div class="element clickable method public method_showPaymentPageForAuthorizenet" data-toggle="collapse" data-target=".method_showPaymentPageForAuthorizenet .collapse">
+<h2>This function is used to show the PaymentPageForAuthorizenet</h2>
+<pre>showPaymentPageForAuthorizenet() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showPaymentPageForBluepay"></a><div class="element clickable method public method_showPaymentPageForBluepay" data-toggle="collapse" data-target=".method_showPaymentPageForBluepay .collapse">
+<h2>This function is used to showPaymentPageForBluepay</h2>
+<pre>showPaymentPageForBluepay() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showPaymentPageForWorldPay"></a><div class="element clickable method public method_showPaymentPageForWorldPay" data-toggle="collapse" data-target=".method_showPaymentPageForWorldPay .collapse">
+<h2>This function is used to showPaymentPageForWorldPay</h2>
+<pre>showPaymentPageForWorldPay(array $arr) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$arr</h4>
+<code>array</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showQuickRegistration"></a><div class="element clickable method public method_showQuickRegistration" data-toggle="collapse" data-target=".method_showQuickRegistration .collapse">
+<h2>This function is used to show the quick registration</h2>
+<pre>showQuickRegistration(array $result, array $err) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$result</h4>
+<code>array</code>
+</div>
+<div class="subelement argument">
+<h4>$err</h4>
+<code>array</code><p>contains both error messages and values</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showShippingDetails"></a><div class="element clickable method public method_showShippingDetails" data-toggle="collapse" data-target=".method_showShippingDetails .collapse">
+<h2>This function is used to show the shipping address.</h2>
+<pre>showShippingDetails(array $records, array $result, array $Err, integer $shipping_address_id) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$records</h4>
+<code>array</code><p>array of address</p></div>
+<div class="subelement argument">
+<h4>$result</h4>
+<code>array</code><p>array of country</p></div>
+<div class="subelement argument">
+<h4>$Err</h4>
+<code>array</code><p>contains both error messages and values</p></div>
+<div class="subelement argument">
+<h4>$shipping_address_id</h4>
+<code>integer</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+<a id="method_showShippingMethod"></a><div class="element clickable method public method_showShippingMethod" data-toggle="collapse" data-target=".method_showShippingMethod .collapse">
+<h2>This function is used to show the shipping method.</h2>
+<pre>showShippingMethod(array $records, array $Err) : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$records</h4>
+<code>array</code>
+</div>
+<div class="subelement argument">
+<h4>$Err</h4>
+<code>array</code>
+</div>
+<h3>Returns</h3>
+<div class="subelement response"><code>string</code></div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
+            generated on 2013-03-16T16:32:49+05:30.<br></footer></div>
+</div>
+</body>
+</html>
